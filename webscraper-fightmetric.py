@@ -20,27 +20,29 @@ def calc_momentum(record):
 	return momentum
 
 def fightmetric_scraper(url, filename):
-	file = open(filename, "W")
-	headers = 'id, name, nickname, height, weight, reach, stance, dob, ss_min, str_acc, str_a_min, str_def, td_avg, td_acc, td_def, sub_avg, wins, losses, wl_diff, momentum'
+	file = open(filename, "w")
+	headers = 'id, name, nickname, height, weight, reach, stance, dob, ss_min, str_acc, str_a_min, str_def, td_avg, td_acc, td_def, sub_avg, wins, losses, wl_diff, momentum\n'
 	file.write(headers)
 	f_id = 0
 	for i in string.ascii_lowercase:
-		uClient = uReq(url) + i
+		url = url + i + '&page=all'
+		uClient = uReq(url)
 		page_html = uClient.read()
 
 		page_soup = soup(page_html, 'html.parser')
 
+
 		for link in page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/fighter-details")}):
 			current_fighter = link.get('href')
-			fighter_page = uReq(url).read()
+			fighter_page = uReq(current_fighter).read()
 			fighter_soup = soup(fighter_page, 'html.parser')
 
 			# Variables
 			f_id += 1
-			name = page_soup.findAll("span", {"class":"b-content__title-highlight"})[0].text.strip()
-			nickname = page_soup.findAll("p",{"class":"b-content__Nickname"})[0].text.strip()
-			stats = (page_soup.findAll("li", {'class':'b-list__box-list-item b-list__box-list-item_type_block'}))
-			height = stats[0].text.strip()
+			name = fighter_soup.findAll("span", {"class":"b-content__title-highlight"})[0].text.strip()
+			nickname = fighter_soup.findAll("p",{"class":"b-content__Nickname"})[0].text.strip()
+			stats = fighter_soup.findAll("li", {'class':'b-list__box-list-item b-list__box-list-item_type_block'})
+			height = stats[0].text.strip() #filter out unnecessary headings
 			weight = stats[1].text.strip()
 			reach = stats[2].text.strip()
 			stance = stats[3].text.strip()
@@ -55,20 +57,22 @@ def fightmetric_scraper(url, filename):
 			sub_avg = stats[12].text.strip()
 			record_list = []
 
-			record = page_soup.findAll("i",{"class":"b-flag__text"})
+			record = fighter_soup.findAll("i",{"class":"b-flag__text"})
 			for i in record:
 				record_list.append(i.text.strip())
 
 			wins = record_list.count('win')
 			losses = record_list.count('loss')
 			win_loss_diff = wins - losses
-			momentum = calc_momentum(record_list)
+			if len(record) != 0:
+				momentum = calc_momentum(record_list)
+			else:
+				momentum = 0
+			file.write(str(f_id) + "," + name + "," + nickname + "," + height + "," + weight + "," + reach + "," + stance + "," + dob + "," + ss_min + "," 
+				+ str_acc + "," + ss_a_min + "," + str_def + "," + td_avg + "," + td_acc + "," + td_def + "," + sub_avg + "," + str(wins) + "," + str(losses) + 
+				"," + str(win_loss_diff) + "," + str(momentum) + "\n")
 
-			f.write(f_id + "," + name + "," + nickname + "," + height + "," + weight + "," + reach + "," + stance + "," + dob + "," + ss_min + "," 
-				+ str_acc + "," + ss_a_min + "," + str_def + "," + td_avg + "," + td_acc + "," + td_def + "," + sub_avg + "," + wins + "," + losses + 
-				"," + win_loss_diff + "," + momentum)
+	file.close()
 
-	f.close()
-
-
+fightmetric_scraper(my_url, 'fighter-database.csv')
 
