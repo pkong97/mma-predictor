@@ -5,15 +5,6 @@ import re
 
 my_url = 'http://fightmetric.com/statistics/fighters?char='
 
-major_promotions = ["UFC", "Bellator", "Pride", "Strikeforce", "WEC"]
-
-def major_promotion_record():
-	counter = 2
-	for i in range(0, len(pros)):
-		if i <= len(pros)-3:
-			print(pros[counter].text.strip())
-			counter+=3
-
 def calc_momentum(record):
 	momentum = 0
 	streak = record[0]
@@ -24,12 +15,15 @@ def calc_momentum(record):
 			break
 	if streak == "loss":
 		momentum *= -1
+	elif streak == "draw":
+		momentum = 0
 	return momentum
 
 def fightmetric_scraper(url, filename):
 	file = open(filename, "W")
-	headers = ''
+	headers = 'id, name, nickname, height, weight, reach, stance, dob, ss_min, str_acc, str_a_min, str_def, td_avg, td_acc, td_def, sub_avg, wins, losses, wl_diff, momentum'
 	file.write(headers)
+	f_id = 0
 	for i in string.ascii_lowercase:
 		uClient = uReq(url) + i
 		page_html = uClient.read()
@@ -42,6 +36,7 @@ def fightmetric_scraper(url, filename):
 			fighter_soup = soup(fighter_page, 'html.parser')
 
 			# Variables
+			f_id += 1
 			name = page_soup.findAll("span", {"class":"b-content__title-highlight"})[0].text.strip()
 			nickname = page_soup.findAll("p",{"class":"b-content__Nickname"})[0].text.strip()
 			stats = (page_soup.findAll("li", {'class':'b-list__box-list-item b-list__box-list-item_type_block'}))
@@ -64,7 +59,16 @@ def fightmetric_scraper(url, filename):
 			for i in record:
 				record_list.append(i.text.strip())
 
-			# only counts fights from major promotions
-			win_loss_diff = record_list.count('win') - record_list.count('loss')
+			wins = record_list.count('win')
+			losses = record_list.count('loss')
+			win_loss_diff = wins - losses
+			momentum = calc_momentum(record_list)
+
+			f.write(f_id + "," + name + "," + nickname + "," + height + "," + weight + "," + reach + "," + stance + "," + dob + "," + ss_min + "," 
+				+ str_acc + "," + ss_a_min + "," + str_def + "," + td_avg + "," + td_acc + "," + td_def + "," + sub_avg + "," + wins + "," + losses + 
+				"," + win_loss_diff + "," + momentum)
+
+	f.close()
+
 
 
