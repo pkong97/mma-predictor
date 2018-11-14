@@ -1,4 +1,5 @@
 from urllib.request import urlopen as uReq
+from urllib.error import HTTPError
 from bs4 import BeautifulSoup as soup
 import string
 import re
@@ -25,24 +26,30 @@ def fightmetric_scraper(url, filename):
 	file.write(headers)
 	f_id = 0
 	for i in string.ascii_lowercase:
-		url = url + i + '&page=all'
-		print('Starting on ' + i)
-		uClient = uReq(url)
-		page_html = uClient.read()
-
-		page_soup = soup(page_html, 'html.parser')
+		new_url = url + i + '&page=all'
+		print('Starting on ' + i + " at " + new_url)
+		uClient = uReq(new_url)
+		try:
+			page_html = uClient.read()
+			page_soup = soup(page_html, 'html.parser')
+		except HTTPError as e:
+			e.read()
 
 		fighter_links = []
 
 		for link in page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/fighter-details")}):
 			fighter_links.append(link.get('href'))
 
+		# eliminate duplicate links
 		fighter_links = set(fighter_links)
 		print(len(fighter_links))
 
 		for current_fighter in fighter_links:
-			fighter_page = uReq(current_fighter).read()
-			fighter_soup = soup(fighter_page, 'html.parser')
+			try:
+				fighter_page = uReq(current_fighter).read()
+				fighter_soup = soup(fighter_page, 'html.parser')
+			except HTTPError as e:
+				e.read()
 
 			# Variables
 			f_id += 1
@@ -68,9 +75,12 @@ def fightmetric_scraper(url, filename):
 			for i in record:
 				record_list.append(i.text.strip())
 
+			# get win-loss differential
 			wins = record_list.count('win')
 			losses = record_list.count('loss')
 			win_loss_diff = wins - losses
+
+			#eliminate null records
 			if len(record) != 0:
 				momentum = calc_momentum(record_list)
 			else:
