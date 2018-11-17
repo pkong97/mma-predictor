@@ -22,9 +22,10 @@ def calc_momentum(record):
 
 def fightmetric_scraper(url, filename):
 	file = open(filename, "w")
-	headers = 'id, name, nickname, height, weight, reach, dob, ss_min, str_acc, str_a_min, str_def, td_avg, td_acc, td_def, sub_avg, wins, losses, wl_diff, momentum\n'
+	headers = 'id,name,nickname,height,weight,reach,dob,ss_min,str_acc,str_a_min,str_def,td_avg,td_acc,td_def,sub_avg,wins,losses,wl_diff,momentum\n'
 	file.write(headers)
-	f_id = 0
+	f_id = ''
+	# scrape from page a-z
 	for i in string.ascii_lowercase:
 		new_url = url + i + '&page=all'
 		print('Starting on ' + i + " at " + new_url)
@@ -52,7 +53,7 @@ def fightmetric_scraper(url, filename):
 				e.read()
 
 			# Variables
-			f_id += 1
+			f_id = current_fighter.split('/')[-1]
 			name = fighter_soup.findAll("span", {"class":"b-content__title-highlight"})[0].text.strip()
 			print(name)
 			nickname = fighter_soup.findAll("p",{"class":"b-content__Nickname"})[0].text.strip()
