@@ -20,7 +20,7 @@ def calc_momentum(record):
 		momentum = 0
 	return momentum
 
-def fightmetric_scraper(url, filename):
+def fighter_scraper(url, filename):
 	file = open(filename, "w")
 	headers = 'id,name,nickname,height,weight,reach,dob,ss_min,str_acc,str_a_min,str_def,td_avg,td_acc,td_def,sub_avg,wins,losses,wl_diff,momentum\n'
 	file.write(headers)
@@ -92,5 +92,5 @@ def fightmetric_scraper(url, filename):
 
 	file.close()
 
-fightmetric_scraper(my_url, 'fighter-database2.csv')
+fighter_scraper(my_url, 'fighter-database2.csv')
 
