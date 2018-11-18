@@ -92,5 +92,5 @@ def fightmetric_scraper(url, filename):
 
 	file.close()
 
-fightmetric_scraper(my_url, 'fighter-database.csv')
+fightmetric_scraper(my_url, 'fighter-database2.csv')
 
