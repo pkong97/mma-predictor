@@ -5,10 +5,11 @@ import string
 import re
 
 my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
-headers = 'event_id,event_name,date,f1_id,f1_name,f2_id,f2_name,winner_id'
+headers = 'event_id,event_name,date,f1_id,f1_name,f2_id,f2_name,winner_id\n'
 
 def fight_scraper(url, filename):
 	file = open(filename, "w")
+	file.write(headers)
 	page_soup = soup(uReq(url).read(), 'html.parser')
 	events = page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/event-details")})
 
@@ -21,7 +22,7 @@ def fight_scraper(url, filename):
 				e.read()
 		event_id = current_event.split('/')[-1]
 		event_name = event_soup.findAll('span',{'class':'b-content__title-highlight'})[0].text.strip()
-		date = event_soup.findAll("li", {"class":"b-list__box-list-item"})[0].text.strip("[Date: \n]")
+		date = event_soup.findAll("li", {"class":"b-list__box-list-item"})[0].text.strip("[Date:, \n]")
 
 		fighters = event_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/fighter-details")})
 
@@ -33,8 +34,8 @@ def fight_scraper(url, filename):
 			winner_id = f1_id
 
 			file.write(event_id + ',' + event_name + ',' + date + ',' + f1_id + ',' + f1_name
-				+ ',' + f2_id + ',' + f2_name + ',' + winner_id)
-			print(f1_name + " vs. " f2_name)
+				+ ',' + f2_id + ',' + f2_name + ',' + winner_id + '\n')
+			print(f1_name + " vs. " + f2_name)
 
 	file.close()
 

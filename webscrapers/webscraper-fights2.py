@@ -5,11 +5,12 @@ import string
 import re
 
 my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
-headers = 'event_id, method'
+headers = 'event_id, method,\n'
 movs = ['KO', 'SUB', 'DEC', 'Overturned']
 
 def fight_scraper(url, filename):
 	file = open(filename, "w")
+	file.write(headers)
 	page_soup = soup(uReq(url).read(), 'html.parser')
 	events = page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/event-details")})
 
@@ -26,13 +27,13 @@ def fight_scraper(url, filename):
 
 		for i in range(0, len(methods)):
 			if any(x in methods[i].text.strip() for x in movs):
-           		method = methods[i].text.strip()
-           	elif ":" in methods[i].text.strip():
-           		time = methods[i].text.strip()
-           	
-           	file.write(event_id + ',' + method + ',' + end_round + ',' + time)
-           	print(method)
+				method = methods[i].text.strip()
+			elif ":" in methods[i].text.strip():
+				time = methods[i].text.strip()
 
-    file.close()
+			file.write(event_id + ',' + method + '\n')
+			print(method)
+	
+	file.close()
 
 fight_scraper(my_url, "fight-database2.csv")
