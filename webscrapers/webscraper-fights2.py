@@ -6,7 +6,7 @@ import re
 
 my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
 headers = 'event_id, method,\n'
-movs = ['KO', 'SUB', 'DEC', 'Overturned']
+movs = ['KO', 'SUB', 'DEC', 'Overturned','CNC','DQ','Other']
 
 def fight_scraper(url, filename):
 	file = open(filename, "w")
@@ -28,11 +28,8 @@ def fight_scraper(url, filename):
 		for i in range(0, len(methods)):
 			if any(x in methods[i].text.strip() for x in movs):
 				method = methods[i].text.strip()
-			elif ":" in methods[i].text.strip():
-				time = methods[i].text.strip()
-
-			file.write(event_id + ',' + method + '\n')
-			print(method)
+				file.write(event_id + ',' + method + '\n')
+				print(method)
 	
 	file.close()
 
