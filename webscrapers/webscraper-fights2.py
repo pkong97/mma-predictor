@@ -5,7 +5,7 @@ import string
 import re
 
 my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
-headers = 'event_id, method,\n'
+headers = 'event_id,method,\n'
 movs = ['KO', 'SUB', 'DEC', 'Overturned','CNC','DQ','Other']
 
 def fight_scraper(url, filename):
