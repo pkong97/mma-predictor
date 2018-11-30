@@ -4,6 +4,8 @@ from bs4 import BeautifulSoup as soup
 import string
 import re
 
+f_name = input("Specify the file path and name: ")
+
 my_url = 'http://fightmetric.com/statistics/fighters?char='
 
 def calc_momentum(record):
@@ -92,5 +94,5 @@ def fighter_scraper(url, filename):
 
 	file.close()
 
-fighter_scraper(my_url, 'fighter-database2.csv')
+fighter_scraper(my_url, f_name)
 
