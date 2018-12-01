@@ -116,5 +116,5 @@ model = LogisticRegression()
 model.fit(comp[predictors],comp[outcome])
 n_event[outcome] = model.predict(n_event[predictors])
 
-n_event.to_csv('predictions/UFC-FN-dossantos-tuivasa.csv')
+n_event.to_csv(event)
 
