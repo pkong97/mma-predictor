@@ -1,93 +1,299 @@
 id,name,id_opp,name_opp,event_id,event_name,elo,elo_opp,height_diff,reach_diff,ss_min_diff,str_acc_diff,str_a_min_diff,str_def_diff,td_avg_diff,td_acc_diff,td_def_diff,sub_avg_diff,wins_diff,losses_diff,momentum_diff,wl_diff_diff
-6fb1ba67bef41b37,Nik Lentz,7d96bc577e5178b2,Gray Maynard,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,914.9158138,924.8008756,-1,-2,1.5,17,0.36,-17,0.59,-12,-37,0.6,2,-1,2,3
-7d96bc577e5178b2,Gray Maynard,6fb1ba67bef41b37,Nik Lentz,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,924.8008756,914.9158138,1,2,-1.5,-17,-0.36,17,-0.59,12,37,-0.6,-2,1,-2,-3
-3143bf892608139a,Yana Kunitskaya,2eeaefbfc7f9fcff,Lina Lansberg,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,750,781.2636932,-1,3,0.55,8,-1.18,-5,4.39,28,-33,0.6,-1,-2,2,1
-2eeaefbfc7f9fcff,Lina Lansberg,3143bf892608139a,Yana Kunitskaya,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,781.2636932,750,1,-3,-0.55,-8,1.18,5,-4.39,-28,33,-0.6,1,2,-2,-1
-d4691518d012b9e7,Aspen Ladd,b12a1d19ee383b7c,Tonya Evinger,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,766.7363068,750,-1,-4,5.42,16,0.22,-4,0.47,67,72,-1.4,2,-4,6,6
-b12a1d19ee383b7c,Tonya Evinger,d4691518d012b9e7,Aspen Ladd,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,750,766.7363068,1,4,-5.42,-16,-0.22,4,-0.47,-67,-72,1.4,-2,4,-6,-6
-6d4b63c767106d3a,Vicente Luque,4d8fa64202cee4c1,Jalin Turner,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,938.7659789,750,-4,-2,-7.12,-2,-6.22,12,-0.21,-50,61,1,7,1,4,6
-4d8fa64202cee4c1,Jalin Turner,6d4b63c767106d3a,Vicente Luque,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,750,938.7659789,4,2,7.12,2,6.22,-12,0.21,50,-61,-1,-7,-1,-4,-6
-eb04b9d31e938edb,Michelle Waterson,b6850671a008bf9a,Felice Herrig,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,784.8068227,813.3324307,-1,-3,-0.2,26,-1.95,1,1.03,38,-14,0.5,1,-1,4,2
-b6850671a008bf9a,Felice Herrig,eb04b9d31e938edb,Michelle Waterson,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,813.3324307,784.8068227,1,3,0.2,-26,1.95,-1,-1.03,-38,14,-0.5,-1,1,-4,-2
-d3df1add9d9a7efb,Derrick Lewis,279566840aa55bf2,Alexander Volkov,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,906.2880467,820.039841,-4,-1,-2.55,-10,-0.09,-12,-0.37,-52,-22,-0.3,8,3,0,5
-279566840aa55bf2,Alexander Volkov,d3df1add9d9a7efb,Derrick Lewis,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,820.039841,906.2880467,4,1,2.55,10,0.09,12,0.37,52,22,0.3,-8,-3,0,-5
-22a92d7f62195791,Tony Ferguson,cbb682f5fcc44bfc,Anthony Pettis,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,941.2273791,907.1521188,1,4,2.66,-1,0.39,9,-0.16,-12,18,0.2,1,-7,12,8
-cbb682f5fcc44bfc,Anthony Pettis,22a92d7f62195791,Tony Ferguson,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,907.1521188,941.2273791,-1,-4,-2.66,1,-0.39,-9,0.16,12,-18,-0.2,-1,7,-12,-8
-032cc3922d871c7f,Khabib Nurmagomedov,f4c49976c75c5ab2,Conor McGregor,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,912.2118713,911.3957926,1,-4,-0.98,1,-2.73,11,4.34,-18,14,0.6,2,-2,12,4
-f4c49976c75c5ab2,Conor McGregor,032cc3922d871c7f,Khabib Nurmagomedov,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,911.3957926,912.2118713,-1,4,0.98,-1,2.73,-11,-4.34,18,-14,-0.6,-2,2,-12,-4
-5b2325cd70dbe2ea,Talita Bernardo,539ed332b3078821,Sarah Moras,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,912.2118713,766,-3,1,1,9,0.47,14,1.05,3,12,-0.2,-1,-1,3,0
-539ed332b3078821,Sarah Moras,5b2325cd70dbe2ea,Talita Bernardo,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,766,912.2118713,3,-1,-1,-9,-0.47,-14,-1.05,-3,-12,0.2,1,1,-3,0
-751de04455cfaac0,Calvin Kattar,bebb4ae55ac2bf6f,Chris Fishgold,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,785.3255749,750,3,-3,0.25,15,0.92,5,-2.92,-17,75,0,3,0,2,3
-bebb4ae55ac2bf6f,Chris Fishgold,751de04455cfaac0,Calvin Kattar,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,785.3255749,-3,3,-0.25,-15,-0.92,-5,2.92,17,-75,0,-3,0,-2,-3
-b7b84ccd221be298,Nasrat Haqparast,51e86de150ee8be6,Thibault Gouti,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,886.7037322,865.3432573,0,0,1.74,12,-2.37,25,-0.9,-55,-5,-0.3,1,-4,4,5
-51e86de150ee8be6,Thibault Gouti,b7b84ccd221be298,Nasrat Haqparast,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,865.3432573,886.7037322,0,0,-1.74,-12,2.37,-25,0.9,55,5,0.3,-1,4,-4,-5
-0d8011111be000b2,Sean Strickland,49858bf46dabf6fb,Nordine Taleb,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,848.3992533,830.9229267,0,2,0.92,-19,1.1,-3,-0.93,-19,10,0.5,1,-1,3,2
-49858bf46dabf6fb,Nordine Taleb,0d8011111be000b2,Sean Strickland,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,830.9229267,848.3992533,0,-2,-0.92,19,-1.1,3,0.93,19,-10,-0.5,-1,1,-3,-2
-523fa774700d7d3f,Court McGee,a2b12c3f3d60ff69,Alex Garcia,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,853.9378173,840.4993532,2,3,2.91,5,0.4,4,-1.74,-28,-4,0.4,3,1,3,2
-a2b12c3f3d60ff69,Alex Garcia,523fa774700d7d3f,Court McGee,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,840.4993532,853.9378173,-2,-3,-2.91,-5,-0.4,-4,1.74,28,4,-0.4,-3,-1,-3,-2
-fcd448a2fe1a23cc,Gian Villante,06f36cf4bd97ec77,Ed Herman,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,818.0808461,967.5499693,2,-1,1.07,-7,2.26,12,-1.88,-28,23,-1.3,0,-2,4,2
-06f36cf4bd97ec77,Ed Herman,fcd448a2fe1a23cc,Gian Villante,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,967.5499693,818.0808461,-2,1,-1.07,7,-2.26,-12,1.88,28,-23,1.3,0,2,-4,-2
-d0e50a3d1b250708,Andre Soukhamthath,f2477cf43c4975cc,Jonathan Martinez,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,815.6917091,750,1,-5,-1.51,-18,-1.38,12,0.59,13,75,0.2,2,2,2,0
-f2477cf43c4975cc,Jonathan Martinez,d0e50a3d1b250708,Andre Soukhamthath,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,815.6917091,-1,5,1.51,18,1.38,-12,-0.59,-13,-75,-0.2,-2,-2,-2,0
-67f272324a030d00,Misha Cirkunov,e51e5cb722bd47a8,Patrick Cummins,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,817.7913862,887.7705721,1,1,0.29,2,-0.85,10,0.02,18,43,2.2,-2,-4,3,2
-e51e5cb722bd47a8,Patrick Cummins,67f272324a030d00,Misha Cirkunov,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,887.7705721,817.7913862,-1,-1,-0.29,-2,0.85,-10,-0.02,-18,-43,-2.2,2,4,-3,-2
-511e82663651438d,Michael Johnson,02f2a9702ba3d167,Artem Lobov,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,912.9623604,1012.645521,1,8,0.79,-3,-0.86,8,0.2,20,25,0.1,9,4,5,5
-02f2a9702ba3d167,Artem Lobov,511e82663651438d,Michael Johnson,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,1012.645521,912.9623604,-1,-8,-0.79,3,0.86,-8,-0.2,-20,-25,-0.1,-9,-4,-5,-5
-d4c9dcd330403612,Anthony Smith,0845c81e37d3bcb3,Volkan Oezdemir,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,940.4795023,788.061485,2,1,-2.2,-1,-0.7,-7,0.18,-22,-24,1,6,3,5,3
-0845c81e37d3bcb3,Volkan Oezdemir,d4c9dcd330403612,Anthony Smith,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,788.061485,940.4795023,-2,-1,2.2,1,0.7,7,-0.18,22,24,-1,-6,-3,-5,-3
-ab943cd2c3c17825,Marcos Rogerio de Lima,efa1f6b42c86793c,Adam Wieczorek,20821819c401ced8,UFC 230: Cormier vs. Lewis,818.0309533,768.1300887,-4,-6,1.89,13,1.12,5,0.49,27,-18,0.5,3,3,2,0
-efa1f6b42c86793c,Adam Wieczorek,ab943cd2c3c17825,Marcos Rogerio de Lima,20821819c401ced8,UFC 230: Cormier vs. Lewis,768.1300887,818.0309533,4,6,-1.89,-13,-1.12,-5,-0.49,-27,18,-0.5,-3,-3,-2,0
-98d961097baaf308,Shane Burgos,a7151778b3381036,Kurt Holobaugh,20821819c401ced8,UFC 230: Cormier vs. Lewis,774.8878176,768.1300887,0,2,1.42,2,1.23,17,-0.09,60,44,-0.7,4,-3,5,7
-a7151778b3381036,Kurt Holobaugh,98d961097baaf308,Shane Burgos,20821819c401ced8,UFC 230: Cormier vs. Lewis,768.1300887,774.8878176,0,-2,-1.42,-2,-1.23,-17,0.09,-60,-44,0.7,-4,3,-5,-7
-dccb63727f2f5f74,Matt Frevola,f9b200db02b488d9,Lando Vannata,20821819c401ced8,UFC 230: Cormier vs. Lewis,750,876.383002,0,0,-1.16,-6,-1.32,3,0.93,-1,13,1.4,-1,-2,0,1
-f9b200db02b488d9,Lando Vannata,dccb63727f2f5f74,Matt Frevola,20821819c401ced8,UFC 230: Cormier vs. Lewis,876.383002,750,0,0,1.16,6,1.32,-3,-0.93,1,-13,-1.4,1,2,0,-1
-4e0692ad070976e4,Lyman Good,484acc7b0f856ce9,Ben Saunders,20821819c401ced8,UFC 230: Cormier vs. Lewis,768.5417538,889.1253456,-2,-3,2.54,-1,0.99,15,0.38,60,17,-1,-7,-7,3,0
-484acc7b0f856ce9,Ben Saunders,4e0692ad070976e4,Lyman Good,20821819c401ced8,UFC 230: Cormier vs. Lewis,889.1253456,768.5417538,2,3,-2.54,1,-0.99,-15,-0.38,-60,-17,1,7,7,-3,0
-0d62719b1dcf7c40,Sheymon Moraes,1291edf2d566a71a,Julio Arce,20821819c401ced8,UFC 230: Cormier vs. Lewis,782.0595286,784.3806073,1,2,-1.65,5,0.61,0,-0.3,-16,-46,-0.9,0,0,3,0
-1291edf2d566a71a,Julio Arce,0d62719b1dcf7c40,Sheymon Moraes,20821819c401ced8,UFC 230: Cormier vs. Lewis,784.3806073,782.0595286,-1,-2,1.65,-5,-0.61,0,0.3,16,46,0.9,0,0,-3,0
-4234f0097c83fa62,Sijara Eubanks,4498b382c65a7faa,Roxanne Modafferi,20821819c401ced8,UFC 230: Cormier vs. Lewis,767.4358729,802.0283847,-3,-2,0.63,4,-2.9,13,1.37,47,42,-0.2,1,-5,3,6
-4498b382c65a7faa,Roxanne Modafferi,4234f0097c83fa62,Sijara Eubanks,20821819c401ced8,UFC 230: Cormier vs. Lewis,802.0283847,767.4358729,3,2,-0.63,-4,2.9,-13,-1.37,-47,-42,0.2,-1,5,-3,-6
-c07efc18b231f170,Jordan Rinaldi,bb1a2cdad6ff34db,Jason Knight,20821819c401ced8,UFC 230: Cormier vs. Lewis,913.9693344,962.4234484,0,1,-1.56,7,-0.76,3,0.73,14,-27,-0.1,-2,-3,5,1
-bb1a2cdad6ff34db,Jason Knight,c07efc18b231f170,Jordan Rinaldi,20821819c401ced8,UFC 230: Cormier vs. Lewis,962.4234484,913.9693344,0,-1,1.56,-7,0.76,-3,-0.73,-14,27,0.1,2,3,-5,-1
-1338e2c7480bdf9e,Israel Adesanya,b1a3e0aca758b322,Derek Brunson,20821819c401ced8,UFC 230: Cormier vs. Lewis,807.2901097,913.4150444,3,3,1.48,11,-0.47,21,-2.74,-28,-15,-0.3,-8,-6,6,-2
-b1a3e0aca758b322,Derek Brunson,1338e2c7480bdf9e,Israel Adesanya,20821819c401ced8,UFC 230: Cormier vs. Lewis,913.4150444,807.2901097,-3,-3,-1.48,-11,0.47,-21,2.74,28,15,0.3,8,6,-6,2
-37d5b176d438d2a5,Karl Roberson,045f25b3a4c08e81,Jack Marshman,20821819c401ced8,UFC 230: Cormier vs. Lewis,776.7933221,789.9685502,1,1,-0.34,25,-2.39,17,1.9,75,28,1.3,0,-2,3,2
-045f25b3a4c08e81,Jack Marshman,37d5b176d438d2a5,Karl Roberson,20821819c401ced8,UFC 230: Cormier vs. Lewis,789.9685502,776.7933221,-1,-1,0.34,-25,2.39,-17,-1.9,-75,-28,-1.3,0,2,-3,-2
-13a0275fa13c4d26,Jared Cannonier,d2c55d1d2e67773b,David Branch,20821819c401ced8,UFC 230: Cormier vs. Lewis,796.5690777,838.6273127,-2,-1,1.96,10,0.94,11,-2.37,1,2,0,0,0,2,0
-d2c55d1d2e67773b,David Branch,13a0275fa13c4d26,Jared Cannonier,20821819c401ced8,UFC 230: Cormier vs. Lewis,838.6273127,796.5690777,2,1,-1.96,-10,-0.94,-11,2.37,-1,-2,0,0,0,-2,0
-d967f0128c323de6,Daniel Cormier,d3df1add9d9a7efb,Derrick Lewis,20821819c401ced8,UFC 230: Cormier vs. Lewis,949.0602343,918.3957958,-4,-7,1.08,-1,0.16,14,1.55,22,25,0.5,7,-3,4,10
-d3df1add9d9a7efb,Derrick Lewis,d967f0128c323de6,Daniel Cormier,20821819c401ced8,UFC 230: Cormier vs. Lewis,918.3957958,949.0602343,4,7,-1.08,1,-0.16,-14,-1.55,-22,-25,-0.5,-7,3,-4,-10
-f57dd0bfa8c17813,Mark De La Rosa,b12fc8a41e82d3a2,Joby Sanchez,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,940.9607323,960.2446423,0,-3,0.02,7,0.18,-6,0.1,-51,-1,0.1,1,-3,5,4
-b12fc8a41e82d3a2,Joby Sanchez,f57dd0bfa8c17813,Mark De La Rosa,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,960.2446423,940.9607323,0,3,-0.02,-7,-0.18,6,-0.1,51,1,-0.1,-1,3,-5,-4
-a0c64f272b65d441,Eric Shelton,2fe9032955c2e013,Joseph Morales,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,768.1300887,766,0,-1,1.17,7,-0.09,5,2.87,1,20,-2.4,1,1,3,0
-2fe9032955c2e013,Joseph Morales,a0c64f272b65d441,Eric Shelton,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,768.1300887,0,1,-1.17,-7,0.09,-5,-2.87,-1,-20,2.4,-1,-1,-3,0
-207773daeb4afa7b,Devonte Smith,902ec2cc48c8ae8a,Julian Erosa,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,766,-4,1,8.03,11,0.58,10,-1.64,-60,25,-1.1,0,-2,3,2
-902ec2cc48c8ae8a,Julian Erosa,207773daeb4afa7b,Devonte Smith,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,750,4,-1,-8.03,-11,-0.58,-10,1.64,60,-25,1.1,0,2,-3,-2
-0052de90691d4a93,Davi Ramos,3956bdc8ab2e54b3,John Gunther,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,799.368852,766,-3,-2,1.47,1,-1,10,-3.8,16,0,1.4,2,0,4,2
-3956bdc8ab2e54b3,John Gunther,0052de90691d4a93,Davi Ramos,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,799.368852,3,2,-1.47,-1,1,-10,3.8,-16,0,-1.4,-2,0,-4,-2
-d76ad9a08c4408ff,Bobby Moffett,4bd6b4800070b069,Chas Skelly,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,866.594488,-1,2,1.52,12,-0.73,1,1.44,66,15,-0.1,-5,-4,3,-1
-4bd6b4800070b069,Chas Skelly,d76ad9a08c4408ff,Bobby Moffett,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,866.594488,750,1,-2,-1.52,-12,0.73,-1,-1.44,-66,-15,0.1,5,4,-3,1
+065eb44700e641a4,Devin Powell,74d35fbc9c6a61bd,Alvaro Herrera,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,718.1946704,732.6432684,0,-1,0.99,3,0.27,-4,0,0,-33,-0.5,0,0,2,0
+74d35fbc9c6a61bd,Alvaro Herrera,065eb44700e641a4,Devin Powell,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,732.6432684,718.1946704,0,1,-0.99,-3,-0.27,4,0,0,33,0.5,0,0,-2,0
+d343df8ba11f4c4e,Nina Ansaroff,4a57ebb14315b251,Randa Markos,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,750.2214546,752.7440185,1,1,1.9,6,0.05,-6,-1.2,14,27,0.6,-1,-3,1,2
+4a57ebb14315b251,Randa Markos,d343df8ba11f4c4e,Nina Ansaroff,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,752.7440185,750.2214546,-1,-1,-1.9,-6,-0.05,6,1.2,-14,-27,-0.6,1,3,-1,-2
+f53c1f4ceeed8c08,Dustin Ortiz,1a31ef98efce7a79,Matheus Nicolau,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,784.8853507,797.8062632,-1,-1,-0.92,-8,-0.19,-14,1.11,-31,-46,-1.5,7,4,4,3
+1a31ef98efce7a79,Matheus Nicolau,f53c1f4ceeed8c08,Dustin Ortiz,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,797.8062632,784.8853507,1,1,0.92,8,0.19,14,-1.11,31,46,1.5,-7,-4,-4,-3
+e872e9a9a902c045,Katlyn Chookagian,4c2d90e335e6df19,Alexis Davis,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,779.3799224,806.1519052,3,0,-0.15,-14,-0.19,9,-0.8,-38,22,-0.8,-4,-3,2,-1
+4c2d90e335e6df19,Alexis Davis,e872e9a9a902c045,Katlyn Chookagian,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,806.1519052,779.3799224,-3,0,0.15,14,0.19,-9,0.8,38,-22,0.8,4,3,-2,1
+c21a036b4e012f1c,John Makdessi,4f732e58ed907eff,Ross Pearson,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,777.4304368,762.7643833,0,-1,1.82,10,-0.15,9,-0.75,-36,12,0,-3,-6,3,3
+4f732e58ed907eff,Ross Pearson,c21a036b4e012f1c,John Makdessi,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,762.7643833,777.4304368,0,1,-1.82,-10,0.15,-9,0.75,36,-12,0,3,6,-3,-3
+cd13728ae1151f46,Ion Cutelaba,af997f7611673880,Gadzhimurad Antigulov,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,752.5952959,782.6344184,2,5,2.84,-18,-2.29,27,-7.56,16,69,-3.8,1,1,2,0
+af997f7611673880,Gadzhimurad Antigulov,cd13728ae1151f46,Ion Cutelaba,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,782.6344184,752.5952959,-2,-5,-2.84,18,2.29,-27,7.56,-16,-69,3.8,-1,-1,-2,0
+275aca31f61ba28c,Islam Makhachev,633a45d131192ffe,Kajan Johnson,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,805.2075699,797.6004444,-1,-5,-0.23,18,-0.77,0,2.79,49,38,1.1,1,-2,3,3
+633a45d131192ffe,Kajan Johnson,275aca31f61ba28c,Islam Makhachev,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,797.6004444,805.2075699,1,5,0.23,-18,0.77,0,-2.79,-49,-38,-1.1,-1,2,-3,-3
+2c9d00968f818270,Hakeem Dawodu,bf0e700106d00e55,Austin Arnett,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,734.7363068,734,-4,1,0.63,3,-4.33,3,-0.56,-18,60,-0.3,0,-1,0,1
+bf0e700106d00e55,Austin Arnett,2c9d00968f818270,Hakeem Dawodu,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,734,734.7363068,4,-1,-0.63,-3,4.33,-3,0.56,18,-60,0.3,0,1,0,-1
+2aa49b3766a59bcd,Jordan Mein,cdb96af67d096b1e,Alex Morono,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,757.187348,789.0626371,1,1,-0.8,3,-0.13,6,1.56,58,26,-0.3,3,3,1,0
+cdb96af67d096b1e,Alex Morono,2aa49b3766a59bcd,Jordan Mein,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,789.0626371,757.187348,-1,-1,0.8,-3,0.13,-6,-1.56,-58,-26,0.3,-3,-3,-1,0
+262a7d06203657e6,Alexander Hernandez,55ee431411ccf07a,Olivier Aubin-Mercier,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,770.3885571,824.6223775,0,2,0.41,-3,-1.21,-11,0.85,5,-2,-0.7,-5,-3,0,-2
+55ee431411ccf07a,Olivier Aubin-Mercier,262a7d06203657e6,Alexander Hernandez,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,824.6223775,770.3885571,0,-2,-0.41,3,1.21,11,-0.85,-5,2,0.7,5,3,0,2
+3d6749c4267da18f,Joanna Jedrzejczyk,31ef8b67e13495b3,Tecia Torres,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,830.620159,806.1018739,5,5,2,-1,-0.44,1,-0.68,49,40,-0.1,3,-1,3,4
+31ef8b67e13495b3,Tecia Torres,3d6749c4267da18f,Joanna Jedrzejczyk,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,806.1018739,830.620159,-5,-5,-2,1,0.44,-1,0.68,-49,-40,0.1,-3,1,-3,-4
+d0f3959b4a9747e6,Jose Aldo,18968f97ad34f15c,Jeremy Stephens,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,841.3052639,807.1866019,-1,-1,0.41,4,0.18,8,-0.43,32,28,-0.2,2,-11,2,13
+18968f97ad34f15c,Jeremy Stephens,d0f3959b4a9747e6,Jose Aldo,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,807.1866019,841.3052639,1,1,-0.41,-4,-0.18,-8,0.43,-32,-28,0.2,-2,11,-2,-13
+029eaff01e6bb8f0,Dustin Poirier,33a331684283900f,Eddie Alvarez,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,872.6297536,817.0663299,0,3,1.27,8,-0.7,1,-1.17,5,-23,0.8,9,1,4,8
+33a331684283900f,Eddie Alvarez,029eaff01e6bb8f0,Dustin Poirier,322a56923b396b4d,UFC Fight Night: Alvarez vs. Poirier 2,817.0663299,872.6297536,0,-3,-1.27,-8,0.7,-1,1.17,-5,23,-0.8,-9,-1,-4,-8
+7c7332319c14094c,Marlon Vera,2296125b6c362355,Wuliji Buren,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,751.9879064,732.5347288,-1,1,1.3,5,1.08,-9,-2.84,-3,-12,1.3,6,2,4,4
+2296125b6c362355,Wuliji Buren,7c7332319c14094c,Marlon Vera,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,732.5347288,751.9879064,1,-1,-1.3,-5,-1.08,9,2.84,3,12,-1.3,-6,-2,-4,-4
+1ebe20ebbfa15e29,Zhang Weili,b76c6268dc1d3c05,Danielle Taylor,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,750,749.3731056,4,15,3.78,19,-1.01,-3,1.41,20,30,1.4,0,-3,4,3
+b76c6268dc1d3c05,Danielle Taylor,1ebe20ebbfa15e29,Zhang Weili,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,749.3731056,750,-4,-15,-3.78,-19,1.01,3,-1.41,-20,-30,-1.4,0,3,-4,-3
+ab2b4ff41d6ebe0f,Alex Perez,d2036f31c035e0d1,Jose Torres,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,779.924224,765.9704444,2,0,0.88,10,-6.76,11,2.4,10,25,2.1,2,0,0,2
+d2036f31c035e0d1,Jose Torres,ab2b4ff41d6ebe0f,Alex Perez,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,765.9704444,779.924224,-2,0,-0.88,-10,6.76,-11,-2.4,-10,-25,-2.1,-2,0,0,-2
+0d62719b1dcf7c40,Sheymon Moraes,5b8ba8f5512893b1,Matt Sayles,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,734.7363068,750,1,4,-3.79,3,-1.42,9,0,0,-53,0,2,0,3,2
+5b8ba8f5512893b1,Matt Sayles,0d62719b1dcf7c40,Sheymon Moraes,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,750,734.7363068,-1,-4,3.79,-3,1.42,-9,0,0,53,0,-2,0,-3,-2
+1ae8f3c723aacff4,Ricardo Ramos,a7897d200692ab64,Kyung Ho Kang,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,782.0941084,769.5453742,0,0,0.97,0,1.34,0,-0.86,-16,-3,-0.6,0,-2,4,2
+a7897d200692ab64,Kyung Ho Kang,1ae8f3c723aacff4,Ricardo Ramos,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,769.5453742,782.0941084,0,0,-0.97,0,-1.34,0,0.86,16,3,0.6,0,2,-4,-2
+5987b2458f4b5290,Ricky Simon,cc1a8b4b38b92c6d,Montel Jackson,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,765.2605422,750,-4,-6,-1.14,-3,1.4,7,4.92,-50,-2,0.3,2,-1,1,3
+cc1a8b4b38b92c6d,Montel Jackson,5987b2458f4b5290,Ricky Simon,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,750,765.2605422,4,6,1.14,3,-1.4,-7,-4.92,50,2,-0.3,-2,1,-1,-3
+6bd02119599741a4,Pedro Munhoz,ec52462a1b41f714,Brett Johns,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,798.6771363,779.9978898,-1,-7,1.38,-4,0.6,3,-2.57,-27,-7,0.8,4,1,4,3
+ec52462a1b41f714,Brett Johns,6bd02119599741a4,Pedro Munhoz,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,779.9978898,798.6771363,1,7,-1.38,4,-0.6,-3,2.57,27,7,-0.8,-4,-1,-4,-3
+dea070ed4a2a8281,Thiago Santos,3a46b268013afede,Kevin Holland,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,809.4245172,750,-1,-5,-0.49,-4,-1.18,2,-0.83,-13,10,-0.9,10,4,0,6
+3a46b268013afede,Kevin Holland,dea070ed4a2a8281,Thiago Santos,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,750,809.4245172,1,5,0.49,4,1.18,-2,0.83,13,-10,0.9,-10,-4,0,-6
+6fd953151d981979,JJ Aldrich,9673a497a9da119a,Polyana Viana,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,767.441062,766,0,0,0.64,0,1.43,12,-1.34,-12,8,-2.4,2,0,4,2
+9673a497a9da119a,Polyana Viana,6fd953151d981979,JJ Aldrich,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,766,767.441062,0,0,-0.64,0,-1.43,-12,1.34,12,-8,2.4,-2,0,-4,-2
+b6452706b373eea1,Renato Moicano,d247691a6c0e9034,Cub Swanson,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,797.9484589,826.2511512,3,2,1.55,-3,0.17,6,0.1,2,16,-0.1,-10,-8,5,-2
+d247691a6c0e9034,Cub Swanson,b6452706b373eea1,Renato Moicano,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,826.2511512,797.9484589,-3,-2,-1.55,3,-0.17,-6,-0.1,-2,-16,0.1,10,8,-5,2
+056c493bbd76a918,Henry Cejudo,8a304bfd6bf04a57,Demetrious Johnson,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,823.0600858,947.4009795,1,-2,-0.01,-12,0.94,0,-1.04,-21,23,-0.4,-10,-1,2,-9
+8a304bfd6bf04a57,Demetrious Johnson,056c493bbd76a918,Henry Cejudo,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,947.4009795,823.0600858,-1,2,0.01,12,-0.94,0,1.04,21,-23,0.4,10,1,-2,9
+c849740a3ff51931,TJ Dillashaw,d8c7c61b176e3994,Cody Garbrandt,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,876.5671842,830.6895785,-2,2,1.9,4,-0.49,0,0.69,4,-14,1,6,1,3,5
+d8c7c61b176e3994,Cody Garbrandt,c849740a3ff51931,TJ Dillashaw,03b1e846b09f721d,UFC 227: Dillashaw vs. Garbrandt 2,830.6895785,876.5671842,2,-2,-1.9,-4,0.49,0,-0.69,-4,14,-1,-6,-1,-3,-5
+94527830000ab715,Rani Yahya,96428b9e9bd048ea,Luke Sanders,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,846.8549317,751.5202586,0,0,-4.44,-13,-2.14,-5,2.69,1,-48,1.9,12,3,4,9
+96428b9e9bd048ea,Luke Sanders,94527830000ab715,Rani Yahya,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,751.5202586,846.8549317,0,0,4.44,13,2.14,5,-2.69,-1,48,-1.9,-12,-3,-4,-9
+519e4fe37ce9ff75,Drew Dober,53ec9cb470e1a4ea,Jon Tuck,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,756.4542435,748.4622982,-3,-3,1.45,-2,0.43,-6,0.65,-16,10,-0.9,3,-1,4,4
+53ec9cb470e1a4ea,Jon Tuck,519e4fe37ce9ff75,Drew Dober,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,748.4622982,756.4542435,3,3,-1.45,2,-0.43,6,-0.65,16,-10,0.9,-3,1,-4,-4
+12f91bfa8f1f723b,Joanne Calderwood,27b164b0d1833df0,Kalindra Faria,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,750.5577362,715.6272148,-1,-10,3.67,-6,2.83,-1,0.43,-9,38,-0.3,4,0,4,4
+27b164b0d1833df0,Kalindra Faria,12f91bfa8f1f723b,Joanne Calderwood,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,715.6272148,750.5577362,1,10,-3.67,6,-2.83,1,-0.43,9,-38,0.3,-4,0,-4,-4
+9e50097a89442158,Mickey Gall,6c7e25571490aa3b,George Sullivan,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,779.5852167,747.5740948,2,1,-2.06,13,-0.21,-14,0.96,46,12,4.5,1,-3,4,4
+6c7e25571490aa3b,George Sullivan,9e50097a89442158,Mickey Gall,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,747.5740948,779.5852167,-2,-1,2.06,-13,0.21,14,-0.96,-46,-12,-4.5,-1,3,-4,-4
+fccf811c1e8b01c7,Andrew Sanchez,2ac4628c08ec5125,Markus Perez,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,747.4179826,750.7629657,0,1,2.28,1,0.33,-1,1.48,-5,19,-1.3,2,0,0,2
+2ac4628c08ec5125,Markus Perez,fccf811c1e8b01c7,Andrew Sanchez,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,750.7629657,747.4179826,0,-1,-2.28,-1,-0.33,1,-1.48,5,-19,1.3,-2,0,0,-2
+65f09bacd3957381,Cory Sandhagen,2f95a3c6d58b2aad,Iuri Alcantara,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,766,804.6518281,2,-1,7.13,11,-0.02,15,-0.43,38,-60,-0.8,-9,-7,3,-2
+2f95a3c6d58b2aad,Iuri Alcantara,65f09bacd3957381,Cory Sandhagen,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,804.6518281,766,-2,1,-7.13,-11,0.02,-15,0.43,-38,60,0.8,9,7,-3,2
+8f6a18831a120817,James Krause,d317a5e2b3f88c5f,Warlley Alves,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,798.0561296,809.2382959,3,1,1.69,0,0.06,12,-0.04,-26,-34,-0.2,1,2,6,-1
+d317a5e2b3f88c5f,Warlley Alves,8f6a18831a120817,James Krause,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,809.2382959,798.0561296,-3,-1,-1.69,0,-0.06,-12,0.04,26,34,0.2,-1,-2,-6,1
+cad24459b28592ca,Eryk Anders,990bd63726a577f8,Tim Williams,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,768.2745048,734.6996381,-1,-1,-0.2,13,-0.12,-3,0.67,2,-42,0.2,3,0,3,3
+990bd63726a577f8,Tim Williams,cad24459b28592ca,Eryk Anders,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,734.6996381,768.2745048,1,1,0.2,-13,0.12,3,-0.67,-2,42,-0.2,-3,0,-3,-3
+aa72b0f831d0bfe5,Deiveson Figueiredo,92437c6775b3f7d1,John Moraga,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,798.4291131,801.1348625,-1,2,-0.32,11,-0.93,-2,1.84,30,6,2.8,-4,-6,5,2
+92437c6775b3f7d1,John Moraga,aa72b0f831d0bfe5,Deiveson Figueiredo,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,801.1348625,798.4291131,1,-2,0.32,-11,0.93,2,-1.84,-30,-6,-2.8,4,6,-5,-2
+a331233f597090a5,Bryan Barberena,d81ac739417d7f53,Jake Ellenberger,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,772.0274106,747.299711,3,1,2.51,10,0.88,-11,-1.7,-7,-39,-0.1,-5,-8,5,3
+d81ac739417d7f53,Jake Ellenberger,a331233f597090a5,Bryan Barberena,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,747.299711,772.0274106,-3,-1,-2.51,-10,-0.88,11,1.7,7,39,0.1,5,8,-5,-3
+5f179af5fffeb9f6,Cortney Casey,f0feeb2192937424,Angela Hill,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,722.2264758,738.6533265,4,3,-0.99,-13,-0.76,-11,-0.02,-30,-50,0.5,1,0,2,1
+f0feeb2192937424,Angela Hill,5f179af5fffeb9f6,Cortney Casey,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,738.6533265,722.2264758,-4,-3,0.99,13,0.76,11,0.02,30,50,-0.5,-1,0,-2,-1
+511e82663651438d,Michael Johnson,8fd808923cffff82,Andre Fili,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,758.8011956,784.8995272,-1,-1,0.59,2,0.24,5,-2.21,-1,8,-0.1,5,4,3,1
+8fd808923cffff82,Andre Fili,511e82663651438d,Michael Johnson,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,784.8995272,758.8011956,1,1,-0.59,-2,-0.24,-5,2.21,1,-8,0.1,-5,-4,-3,-1
+9e8f6c728eb01124,Justin Gaethje,6256b2b1562cb8e1,James Vick,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,742.1718941,870.5120241,-4,-6,4.37,16,7.49,-9,-0.32,-33,24,-0.8,-7,0,0,-7
+6256b2b1562cb8e1,James Vick,9e8f6c728eb01124,Justin Gaethje,c0342805a1948cbb,UFC Fight Night: Gaethje vs. Vick,870.5120241,742.1718941,4,6,-4.37,-16,-7.49,9,0.32,33,-24,0.8,7,0,0,7
+81d9df19e255b8b6,Jarred Brooks,546f8599a63c29da,Roberto Sanchez,d5ae8074631762fc,UFC 228: Woodley vs. Till,733.3877627,749.9714044,-3,-4,1.16,6,-0.12,16,0.93,-5,19,-0.1,1,0,2,1
+546f8599a63c29da,Roberto Sanchez,81d9df19e255b8b6,Jarred Brooks,d5ae8074631762fc,UFC 228: Woodley vs. Till,749.9714044,733.3877627,3,4,-1.16,-6,0.12,-16,-0.93,5,-19,0.1,-1,0,-2,-1
+578ef12674df1e6a,Irene Aldana,3cf66c62d9069f43,Lucie Pudilova,d5ae8074631762fc,UFC 228: Woodley vs. Till,734.6735482,766.7991572,1,1,0.82,4,2.05,8,0.5,50,17,-0.5,0,0,3,0
+3cf66c62d9069f43,Lucie Pudilova,578ef12674df1e6a,Irene Aldana,d5ae8074631762fc,UFC 228: Woodley vs. Till,766.7991572,734.6735482,-1,-1,-0.82,-4,-2.05,-8,-0.5,-50,-17,0.5,0,0,-3,0
+d1941565abf50b16,Jim Miller,c17041f1bb5768d8,Alex White,d5ae8074631762fc,UFC 228: Woodley vs. Till,799.6931136,733.0565781,-4,0,-1.07,0,0.01,-5,0.81,-4,-20,1.7,15,6,3,9
+c17041f1bb5768d8,Alex White,d1941565abf50b16,Jim Miller,d5ae8074631762fc,UFC 228: Woodley vs. Till,733.0565781,799.6931136,4,0,1.07,0,-0.01,5,-0.81,4,20,-1.7,-15,-6,-3,-9
+82e7929bf6c2b689,Diego Sanchez,3dd949593346dbc3,Craig White,d5ae8074631762fc,UFC 228: Woodley vs. Till,792.6577511,738.9660243,-4,-4,1.53,-3,-0.37,18,1.52,22,0,0.1,20,9,3,11
+3dd949593346dbc3,Craig White,82e7929bf6c2b689,Diego Sanchez,d5ae8074631762fc,UFC 228: Woodley vs. Till,738.9660243,792.6577511,4,4,-1.53,3,0.37,-18,-1.52,-22,0,-0.1,-20,-9,-3,-11
+a17ad5a5048e8c3f,Darren Stewart,76ee3d666c648f6b,Charles Byrd,d5ae8074631762fc,UFC 228: Woodley vs. Till,710.1832085,766,2,1,-0.71,-17,1.5,-8,-0.44,-15,8,-1.9,1,3,0,-2
+76ee3d666c648f6b,Charles Byrd,a17ad5a5048e8c3f,Darren Stewart,d5ae8074631762fc,UFC 228: Woodley vs. Till,766,710.1832085,-2,-1,0.71,17,-1.5,8,0.44,15,-8,1.9,-1,-3,0,2
+b997be68943010fc,Geoff Neal,764342d39cdaa54a,Frank Camacho,d5ae8074631762fc,UFC 228: Woodley vs. Till,764.658884,735.4086186,1,2,1.51,10,-4.76,11,-1.46,-45,0,1.4,1,-3,3,4
+764342d39cdaa54a,Frank Camacho,b997be68943010fc,Geoff Neal,d5ae8074631762fc,UFC 228: Woodley vs. Till,735.4086186,764.658884,-1,-2,-1.51,-10,4.76,-11,1.46,45,0,-1.4,-1,3,-3,-4
+cb696ebfb6598724,Aljamain Sterling,bf7ad5628363eec9,Cody Stamann,d5ae8074631762fc,UFC 228: Woodley vs. Till,812.0932789,799.4821575,1,7,-1.08,0,-2.02,6,-1.86,-35,-37,1,5,2,3,3
+bf7ad5628363eec9,Cody Stamann,cb696ebfb6598724,Aljamain Sterling,d5ae8074631762fc,UFC 228: Woodley vs. Till,799.4821575,812.0932789,-1,-7,1.08,0,2.02,-6,1.86,35,37,-1,-5,-2,-3,-3
+b08012bbe542592a,Tatiana Suarez,d910665038efc639,Carla Esparza,d5ae8074631762fc,UFC 228: Woodley vs. Till,797.9932585,768.1063747,4,4,2.55,35,-2.35,-11,4.1,46,60,0.4,0,-4,6,4
+d910665038efc639,Carla Esparza,b08012bbe542592a,Tatiana Suarez,d5ae8074631762fc,UFC 228: Woodley vs. Till,768.1063747,797.9932585,-4,-4,-2.55,-35,2.35,11,-4.1,-46,-60,-0.4,0,4,-6,-4
+eae431e70064e046,Abdul Razak Alhassan,d8da10db80131bec,Niko Price,d5ae8074631762fc,UFC 228: Woodley vs. Till,779.3390478,785.8552071,-2,-3,2.09,17,0.16,3,-0.87,5,-22,-1.8,0,-1,4,1
+d8da10db80131bec,Niko Price,eae431e70064e046,Abdul Razak Alhassan,d5ae8074631762fc,UFC 228: Woodley vs. Till,785.8552071,779.3390478,2,3,-2.09,-17,-0.16,-3,0.87,-5,22,1.8,0,1,-4,-1
+9c907996820d2d69,Jimmie Rivera,99506df1af6c8b3b,John Dodson,d5ae8074631762fc,UFC 228: Woodley vs. Till,813.8139984,821.0185935,1,2,1.06,2,-0.06,0,0.26,-3,18,0,-3,-4,2,1
+99506df1af6c8b3b,John Dodson,9c907996820d2d69,Jimmie Rivera,d5ae8074631762fc,UFC 228: Woodley vs. Till,821.0185935,813.8139984,-1,-2,-1.06,-2,0.06,0,-0.26,3,-18,0,3,4,-2,-1
+87aa9fb63d6b51a1,Zabit Magomedsharipov,cc351e408bbb7d43,Brandon Davis,d5ae8074631762fc,UFC 228: Woodley vs. Till,795.9644896,736.1958455,3,1,-0.48,19,-2.01,2,7.02,30,20,1.3,3,-3,6,6
+cc351e408bbb7d43,Brandon Davis,87aa9fb63d6b51a1,Zabit Magomedsharipov,d5ae8074631762fc,UFC 228: Woodley vs. Till,736.1958455,795.9644896,-3,-1,0.48,-19,2.01,-2,-7.02,-30,-20,-1.3,-3,3,-6,-6
+6a1901c62ab3870f,Jessica Andrade,d7c3816669784109,Karolina Kowalkiewicz,d5ae8074631762fc,UFC 228: Woodley vs. Till,826.3112907,799.9742261,-2,-2,0.82,13,-0.12,-5,3.06,44,-12,0.5,5,1,4,4
+d7c3816669784109,Karolina Kowalkiewicz,6a1901c62ab3870f,Jessica Andrade,d5ae8074631762fc,UFC 228: Woodley vs. Till,799.9742261,826.3112907,2,2,-0.82,-13,0.12,5,-3.06,-44,12,-0.5,-5,-1,-4,-4
+effd9de9937996f8,Tyron Woodley,9ce6d5a03af801b7,Darren Till,d5ae8074631762fc,UFC 228: Woodley vs. Till,881.922959,820.7812801,-3,0,0.23,3,-0.72,0,0.84,9,8,0.5,12,2,4,10
+9ce6d5a03af801b7,Darren Till,effd9de9937996f8,Tyron Woodley,d5ae8074631762fc,UFC 228: Woodley vs. Till,820.7812801,881.922959,3,0,-0.23,-3,0.72,0,-0.84,-9,-8,-0.5,-12,-2,-4,-10
+c03520b5c88ed6b4,Merab Dvalishvili,ba5e253af86db1a8,Terrion Ware,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,718.6708896,704.1751286,-2,-3,-0.24,2,-3.85,8,6.83,19,36,0,1,-2,5,3
+ba5e253af86db1a8,Terrion Ware,c03520b5c88ed6b4,Merab Dvalishvili,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,704.1751286,718.6708896,2,3,0.24,-2,3.85,-8,-6.83,-19,-36,0,-1,2,-5,-3
+abd5fb12437eda21,Ramazan Emeev,348dff4e03bd18c6,Stefan Sekulic,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,786.3769658,750,-2,1,1.04,10,-1,13,1,13,47,0.3,3,-1,4,4
+348dff4e03bd18c6,Stefan Sekulic,abd5fb12437eda21,Ramazan Emeev,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,750,786.3769658,2,-1,-1.04,-10,1,-13,-1,-13,-47,-0.3,-3,1,-4,-4
+99bcdf5eac39898f,Jordan Johnson,0a95c474e61a6c44,Adam Yandiev,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,798.5141246,750,5,5,3.27,39,-3.5,17,3.25,42,75,1.2,4,-1,5,5
+0a95c474e61a6c44,Adam Yandiev,99bcdf5eac39898f,Jordan Johnson,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,750,798.5141246,-5,-5,-3.27,-39,3.5,-17,-3.25,-42,-75,-1.2,-4,1,-5,-5
+d802174b0c0c1f4e,Magomed Ankalaev,6370c1c1e12723d5,Marcin Prachnio,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,733.292809,736.2192692,0,1,1.53,18,-1.76,18,0,0,71,0,1,-1,3,2
+6370c1c1e12723d5,Marcin Prachnio,d802174b0c0c1f4e,Magomed Ankalaev,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,736.2192692,733.292809,0,-1,-1.53,-18,1.76,-18,0,0,-71,0,-1,1,-3,-2
+8f5c8850b2484173,Mairbek Taisumov,f046d724d2a84ac5,Desmond Green,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,824.502625,760.0311747,-1,0,-0.33,-1,-0.19,-8,0.66,42,14,0,5,-2,7,7
+f046d724d2a84ac5,Desmond Green,8f5c8850b2484173,Mairbek Taisumov,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,760.0311747,824.502625,1,0,0.33,1,0.19,8,-0.66,-42,-14,0,-5,2,-7,-7
+9b7694d064a8a0ad,Rustam Khabilov,633a45d131192ffe,Kajan Johnson,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,843.4800541,781.9507096,-3,-2,-0.46,-8,0.26,0,2.5,8,-1,-0.1,5,-1,8,6
+633a45d131192ffe,Kajan Johnson,9b7694d064a8a0ad,Rustam Khabilov,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,781.9507096,843.4800541,3,2,0.46,8,-0.26,0,-2.5,-8,1,0.1,-5,1,-8,-6
+d661ce4da776fc20,Petr Yan,7c9c6a884be167fe,Jin Soo Son,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,765.3116888,750,1,-2,2.9,19,-2.93,16,-1,-14,-12,0,2,-1,2,3
+7c9c6a884be167fe,Jin Soo Son,d661ce4da776fc20,Petr Yan,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,750,765.3116888,-1,2,-2.9,-19,2.93,-16,1,14,12,0,-2,1,-2,-3
+231cae8b77fbbcc1,Khalid Murtazaliev,5d7bdab5e03e3216,CB Dollaway,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,750,795.0466844,-2,0,2.15,22,-2.18,24,3.95,46,-29,-1.2,-10,-9,2,-1
+5d7bdab5e03e3216,CB Dollaway,231cae8b77fbbcc1,Khalid Murtazaliev,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,795.0466844,750,2,0,-2.15,-22,2.18,-24,-3.95,-46,29,1.2,10,9,-2,1
+e2ccd9a9ace60de7,Aleksei Kunchenko,31ee470ef5dc8d7f,Thiago Alves,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,750,812.9559226,-1,0,-0.68,-12,0.6,4,0.26,-18,-63,-0.3,-13,-10,3,-3
+31ee470ef5dc8d7f,Thiago Alves,e2ccd9a9ace60de7,Aleksei Kunchenko,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,812.9559226,750,1,0,0.68,12,-0.6,-4,-0.26,18,63,0.3,13,10,-3,3
+2f5cbecbbe18bac4,Shamil Abdurakhimov,3738e68d2261e60f,Andrei Arlovski,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,768.0190104,811.0530097,0,-1,-0.69,3,-0.38,3,0.89,-11,-13,-0.1,-14,-13,1,-1
+3738e68d2261e60f,Andrei Arlovski,2f5cbecbbe18bac4,Shamil Abdurakhimov,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,811.0530097,768.0190104,0,1,0.69,-3,0.38,-3,-0.89,11,13,0.1,14,13,-1,1
+99df7d0a2a08a8a8,Jan Blachowicz,1091d4d957141094,Nikita Krylov,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,776.2747469,797.1078283,-1,1,-1.95,-8,0.39,8,0.97,26,15,-1.5,0,0,6,0
+1091d4d957141094,Nikita Krylov,99df7d0a2a08a8a8,Jan Blachowicz,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,797.1078283,776.2747469,1,-1,1.95,8,-0.39,-8,-0.97,-26,-15,1.5,0,0,-6,0
+98c23cb6da5b3352,Aleksei Oleinik,eef9b891edbd4604,Mark Hunt,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,793.4613203,786.8483685,4,8,0.17,5,0.44,2,2.46,-16,-53,2.5,-7,-11,4,4
+eef9b891edbd4604,Mark Hunt,98c23cb6da5b3352,Aleksei Oleinik,8d49545dadf9b919,UFC Fight Night: Hunt vs. Oleinik,786.8483685,793.4613203,-4,-8,-0.17,-5,-0.44,-2,-2.46,16,53,-2.5,7,11,-4,-4
+dab8cfbb6b1db10a,Livinha Souza,26b63bc5c0c1f65d,Alex Chambers,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,720.1382658,2,12,4.44,1,-2.14,5,8.8,59,-53,10.1,0,-4,4,4
+26b63bc5c0c1f65d,Alex Chambers,dab8cfbb6b1db10a,Livinha Souza,852454c572675334,UFC Fight Night: Marreta vs. Anders,720.1382658,750,-2,-12,-4.44,-1,2.14,-5,-8.8,-59,53,-10.1,0,4,-4,-4
+8adcbd525fab8d9b,Elizeu Zaleski dos Santos,2f1a257d6777096d,Luigi Vendramini,852454c572675334,UFC Fight Night: Marreta vs. Anders,813.7858461,750,3,-2,3.7,17,0.58,9,0.36,10,50,-1.9,6,0,7,6
+2f1a257d6777096d,Luigi Vendramini,8adcbd525fab8d9b,Elizeu Zaleski dos Santos,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,813.7858461,-3,2,-3.7,-17,-0.58,-9,-0.36,-10,-50,1.9,-6,0,-7,-6
+cfb65863d5099327,Thales Leites,db1f2ed63b54b9a7,Hector Lombard,852454c572675334,UFC Fight Night: Marreta vs. Anders,797.5861578,724.065699,4,7,-0.89,-6,-0.36,-1,0.41,-21,-47,0.6,10,-2,7,12
+db1f2ed63b54b9a7,Hector Lombard,cfb65863d5099327,Thales Leites,852454c572675334,UFC Fight Night: Marreta vs. Anders,724.065699,797.5861578,-4,-7,0.89,6,0.36,1,-0.41,21,47,-0.6,-10,2,-7,-12
+cc8c623cca88f54f,Mayra Bueno Silva,38c7f72747f4f712,Gillian Robertson,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,781.2636932,1,12,0.13,-6,0.13,-24,-4.23,-50,66,0.9,-1,-1,2,0
+38c7f72747f4f712,Gillian Robertson,cc8c623cca88f54f,Mayra Bueno Silva,852454c572675334,UFC Fight Night: Marreta vs. Anders,781.2636932,750,-1,-12,-0.13,6,-0.13,24,4.23,50,-66,-0.9,1,1,-2,0
+1bcaac2d99b90fce,Sergio Moraes,484acc7b0f856ce9,Ben Saunders,852454c572675334,UFC Fight Night: Marreta vs. Anders,836.3495514,790.5361674,-2,-5,-0.58,-5,-0.32,11,0.92,-6,7,-0.4,-1,-6,4,5
+484acc7b0f856ce9,Ben Saunders,1bcaac2d99b90fce,Sergio Moraes,852454c572675334,UFC Fight Night: Marreta vs. Anders,790.5361674,836.3495514,2,5,0.58,5,0.32,-11,-0.92,6,-7,0.4,1,6,-4,-5
+441eacbe20e0e80b,Augusto Sakai,01b352b6a9074d5c,Chase Sherman,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,719.9120856,0,-3,0.36,6,-2.43,7,0.32,100,11,0,-1,-5,4,4
+01b352b6a9074d5c,Chase Sherman,441eacbe20e0e80b,Augusto Sakai,852454c572675334,UFC Fight Night: Marreta vs. Anders,719.9120856,750,0,3,-0.36,-6,2.43,-7,-0.32,-100,-11,0,1,5,-4,-4
+a67f5afa8d6a1b80,Ryan Spann,e5bda12faabfc850,Luis Henrique,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,733.2412932,3,7,1.44,5,0.33,-3,-3.09,-36,16,0.9,-1,-4,4,3
+e5bda12faabfc850,Luis Henrique,a67f5afa8d6a1b80,Ryan Spann,852454c572675334,UFC Fight Night: Marreta vs. Anders,733.2412932,750,-3,-7,-1.44,-5,-0.33,3,3.09,36,-16,-0.9,1,4,-4,-3
+a8283a4f415e1eb9,Francisco Trinaldo,e5c9de15bb58b1c6,Evan Dunham,852454c572675334,UFC Fight Night: Marreta vs. Anders,846.0252556,796.9990394,-1,0,-2.08,6,-1.07,-1,-0.66,12,-17,-0.5,2,-3,3,5
+e5c9de15bb58b1c6,Evan Dunham,a8283a4f415e1eb9,Francisco Trinaldo,852454c572675334,UFC Fight Night: Marreta vs. Anders,796.9990394,846.0252556,1,0,2.08,-6,1.07,1,0.66,-12,17,0.5,-2,3,-3,-5
+07225ba28ae309b6,Charles Oliveira,de45aaae23dfa392,Christos Giagos,852454c572675334,UFC Fight Night: Marreta vs. Anders,796.7391247,736.1395438,0,3,0.88,17,0.87,4,2.39,21,19,2.3,11,5,3,6
+de45aaae23dfa392,Christos Giagos,07225ba28ae309b6,Charles Oliveira,852454c572675334,UFC Fight Night: Marreta vs. Anders,736.1395438,796.7391247,0,-3,-0.88,-17,-0.87,-4,-2.39,-21,-19,-2.3,-11,-5,-3,-6
+4a57ebb14315b251,Randa Markos,cd2c4d30c6e13b47,Marina Rodriguez,852454c572675334,UFC Fight Night: Marreta vs. Anders,736.6278521,750,-3,-4,-2.34,-9,0.16,3,0.78,-74,-7,0.2,4,5,0,-1
+cd2c4d30c6e13b47,Marina Rodriguez,4a57ebb14315b251,Randa Markos,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,736.6278521,3,4,2.34,9,-0.16,-3,-0.78,74,7,-0.2,-4,-5,0,1
+5f6f049d54728e88,Andre Ewell,2c99576fefe53c7c,Renan Barao,852454c572675334,UFC Fight Night: Marreta vs. Anders,750,790.9870495,5,6,-0.17,7,-0.83,-2,-0.5,55,-51,-0.6,-10,-6,4,-4
+2c99576fefe53c7c,Renan Barao,5f6f049d54728e88,Andre Ewell,852454c572675334,UFC Fight Night: Marreta vs. Anders,790.9870495,750,-5,-6,0.17,-7,0.83,2,0.5,-55,51,0.6,10,6,-4,4
+73e09f837f3b5ecc,Rogerio Nogueira,d156513a19acf856,Sam Alvey,852454c572675334,UFC Fight Night: Marreta vs. Anders,766.7087152,825.6538196,0,0,-0.81,-11,-1.01,5,0.58,19,-21,0.7,9,1,2,8
+d156513a19acf856,Sam Alvey,73e09f837f3b5ecc,Rogerio Nogueira,852454c572675334,UFC Fight Night: Marreta vs. Anders,825.6538196,766.7087152,0,0,0.81,11,1.01,-5,-0.58,-19,21,-0.7,-9,-1,-2,-8
+57b10fca4f9c9a7a,Alex Oliveira,198994b47f395af0,Carlo Pedersoli,852454c572675334,UFC Fight Night: Marreta vs. Anders,844.572047,765.3809845,0,1,-1.4,16,-2.07,-14,0.57,-37,57,0.9,8,2,2,6
+198994b47f395af0,Carlo Pedersoli,57b10fca4f9c9a7a,Alex Oliveira,852454c572675334,UFC Fight Night: Marreta vs. Anders,765.3809845,844.572047,0,-1,1.4,-16,2.07,14,-0.57,37,-57,-0.9,-8,-2,-2,-6
+dea070ed4a2a8281,Thiago Santos,cad24459b28592ca,Eryk Anders,852454c572675334,UFC Fight Night: Marreta vs. Anders,822.7142938,782.7331201,1,1,2.02,-1,-1.39,17,-1.61,-5,7,-0.1,8,3,0,5
+cad24459b28592ca,Eryk Anders,dea070ed4a2a8281,Thiago Santos,852454c572675334,UFC Fight Night: Marreta vs. Anders,782.7331201,822.7142938,-1,-1,-2.02,1,1.39,-17,1.61,5,-7,0.1,-8,-3,0,-5
+5331b25a60417ffb,Anthony Rocco Martin,4c7781da8c6cae93,Ryan LaFlare,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,772.6586559,828.520071,-1,-1,-0.08,1,1.1,-7,-1.13,-19,-3,1.1,-1,1,3,-2
+4c7781da8c6cae93,Ryan LaFlare,5331b25a60417ffb,Anthony Rocco Martin,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,828.520071,772.6586559,1,1,0.08,-1,-1.1,7,1.13,19,3,-1.1,1,-1,-3,2
+6fb1ba67bef41b37,Nik Lentz,7d96bc577e5178b2,Gray Maynard,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,813.6644179,795.6051608,-1,-2,1.5,17,0.36,-17,0.59,-12,-37,0.6,2,-1,2,3
+7d96bc577e5178b2,Gray Maynard,6fb1ba67bef41b37,Nik Lentz,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,795.6051608,813.6644179,1,2,-1.5,-17,-0.36,17,-0.59,12,37,-0.6,-2,1,-2,-3
+3143bf892608139a,Yana Kunitskaya,2eeaefbfc7f9fcff,Lina Lansberg,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,736.764806,752.1163176,-1,3,0.55,8,-1.18,-5,4.39,28,-33,0.6,-1,-2,2,1
+2eeaefbfc7f9fcff,Lina Lansberg,3143bf892608139a,Yana Kunitskaya,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,752.1163176,736.764806,1,-3,-0.55,-8,1.18,5,-4.39,-28,33,-0.6,1,2,-2,-1
+df1eb4354d18a906,Scott Holtzman,cd7763bcadb5d4c8,Alan Patrick,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,777.3916143,812.7969697,-2,-5,2.59,9,0.83,11,-1.11,19,-6,-0.1,0,0,4,0
+cd7763bcadb5d4c8,Alan Patrick,df1eb4354d18a906,Scott Holtzman,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,812.7969697,777.3916143,2,5,-2.59,-9,-0.83,-11,1.11,-19,6,0.1,0,0,-4,0
+d4691518d012b9e7,Aspen Ladd,b12a1d19ee383b7c,Tonya Evinger,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,766.066255,735.435816,-1,-4,5.42,16,0.22,-4,0.47,67,72,-1.4,2,-4,6,6
+b12a1d19ee383b7c,Tonya Evinger,d4691518d012b9e7,Aspen Ladd,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,735.435816,766.066255,1,4,-5.42,-16,-0.22,4,-0.47,-67,-72,1.4,-2,4,-6,-6
+6d4b63c767106d3a,Vicente Luque,4d8fa64202cee4c1,Jalin Turner,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,811.998701,750,-4,-2,-7.12,-2,-6.22,12,-0.21,-50,61,1,7,1,4,6
+4d8fa64202cee4c1,Jalin Turner,6d4b63c767106d3a,Vicente Luque,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,750,811.998701,4,2,7.12,2,6.22,-12,0.21,50,-61,-1,-7,-1,-4,-6
+b102c26727306ab6,Jussier Formiga,de75d1c45a39e221,Sergio Pettis,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,804.3304587,827.156369,-1,-2,-2.26,1,-0.39,0,0.95,-2,17,0.3,0,0,2,0
+de75d1c45a39e221,Sergio Pettis,b102c26727306ab6,Jussier Formiga,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,827.156369,804.3304587,1,2,2.26,-1,0.39,0,-0.95,2,-17,-0.3,0,0,-2,0
+eb04b9d31e938edb,Michelle Waterson,b6850671a008bf9a,Felice Herrig,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,767.2876666,793.8837745,-1,-3,-0.2,26,-1.95,1,1.03,38,-14,0.5,1,-1,4,2
+b6850671a008bf9a,Felice Herrig,eb04b9d31e938edb,Michelle Waterson,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,793.8837745,767.2876666,1,3,0.2,-26,1.95,-1,-1.03,-38,14,-0.5,-1,1,-4,-2
+d3df1add9d9a7efb,Derrick Lewis,279566840aa55bf2,Alexander Volkov,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,860.5669775,819.4594064,-4,-1,-2.55,-10,-0.09,-12,-0.37,-52,-22,-0.3,8,3,0,5
+279566840aa55bf2,Alexander Volkov,d3df1add9d9a7efb,Derrick Lewis,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,819.4594064,860.5669775,4,1,2.55,10,0.09,12,0.37,52,22,0.3,-8,-3,0,-5
+2e19380f34871c6a,Dominick Reyes,50db8711c70196cd,Ovince Saint Preux,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,795.428388,822.738611,1,-3,3.81,13,-0.56,7,-0.5,-15,19,0.1,-13,-8,5,-5
+50db8711c70196cd,Ovince Saint Preux,2e19380f34871c6a,Dominick Reyes,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,822.738611,795.428388,-1,3,-3.81,-13,0.56,-7,0.5,15,-19,-0.1,13,8,-5,5
+22a92d7f62195791,Tony Ferguson,cbb682f5fcc44bfc,Anthony Pettis,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,919.990234,806.5465423,1,4,2.66,-1,0.39,9,-0.16,-12,18,0.2,1,-7,12,8
+cbb682f5fcc44bfc,Anthony Pettis,22a92d7f62195791,Tony Ferguson,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,806.5465423,919.990234,-1,-4,-2.66,1,-0.39,-9,0.16,12,-18,-0.2,-1,7,-12,-8
+032cc3922d871c7f,Khabib Nurmagomedov,f4c49976c75c5ab2,Conor McGregor,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,899.5703533,877.820041,1,-4,-0.98,1,-2.73,11,4.34,-18,14,0.6,2,-2,12,4
+f4c49976c75c5ab2,Conor McGregor,032cc3922d871c7f,Khabib Nurmagomedov,1ef0eae31904e534,UFC 229: Khabib vs. McGregor,877.820041,899.5703533,-1,4,0.98,-1,2.73,-11,-4.34,18,-14,-0.6,-2,2,-12,-4
+31a13532e724ca2b,Stevie Ray,6eaec40f724852f4,Jessin Ayari,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,777.186581,749.2300065,-2,-3,-0.07,7,-0.85,-4,0.73,55,22,0.4,5,1,3,4
+6eaec40f724852f4,Jessin Ayari,31a13532e724ca2b,Stevie Ray,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,749.2300065,777.186581,2,3,0.07,-7,0.85,4,-0.73,-55,-22,-0.4,-5,-1,-3,-4
+7e511f8d842a109d,Arjan Bhullar,ac29d508d78384c9,Marcelo Golm,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,749.8721891,747.8864268,-2,0,-2.1,-8,-1.54,14,1.15,16,13,-0.5,1,-1,3,2
+ac29d508d78384c9,Marcelo Golm,7e511f8d842a109d,Arjan Bhullar,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,747.8864268,749.8721891,2,0,2.1,8,1.54,-14,-1.15,-16,-13,0.5,-1,1,-3,-2
+68c7ad953455c73f,Don Madge,ef44e4ea9050f2ea,Te Edwards,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,750,4,0,2.61,23,-3.08,34,-2.63,-100,0,2.9,1,-1,2,2
+ef44e4ea9050f2ea,Te Edwards,68c7ad953455c73f,Don Madge,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,750,-4,0,-2.61,-23,3.08,-34,2.63,100,0,-2.9,-1,1,-2,-2
+5b2325cd70dbe2ea,Talita Bernardo,539ed332b3078821,Sarah Moras,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,717.1969431,749.2620294,-3,1,1,9,0.47,14,1.05,3,12,-0.2,-1,-1,3,0
+539ed332b3078821,Sarah Moras,5b2325cd70dbe2ea,Talita Bernardo,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,749.2620294,717.1969431,3,-1,-1,-9,-0.47,-14,-1.05,-3,-12,0.2,1,1,-3,0
+751de04455cfaac0,Calvin Kattar,bebb4ae55ac2bf6f,Chris Fishgold,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,768.1566079,750,3,-3,0.25,15,0.92,5,-2.92,-17,75,0,3,0,2,3
+bebb4ae55ac2bf6f,Chris Fishgold,751de04455cfaac0,Calvin Kattar,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,768.1566079,-3,3,-0.25,-15,-0.92,-5,2.92,17,-75,0,-3,0,-2,-3
+b7b84ccd221be298,Nasrat Haqparast,51e86de150ee8be6,Thibault Gouti,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,749.3971615,709.4775345,0,0,1.74,12,-2.37,25,-0.9,-55,-5,-0.3,1,-4,4,5
+51e86de150ee8be6,Thibault Gouti,b7b84ccd221be298,Nasrat Haqparast,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,709.4775345,749.3971615,0,0,-1.74,-12,2.37,-25,0.9,55,5,0.3,-1,4,-4,-5
+0d8011111be000b2,Sean Strickland,49858bf46dabf6fb,Nordine Taleb,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,796.0117975,793.5851566,0,2,0.92,-19,1.1,-3,-0.93,-19,10,0.5,1,-1,3,2
+49858bf46dabf6fb,Nordine Taleb,0d8011111be000b2,Sean Strickland,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,793.5851566,796.0117975,0,-2,-0.92,19,-1.1,3,0.93,19,-10,-0.5,-1,1,-3,-2
+523fa774700d7d3f,Court McGee,a2b12c3f3d60ff69,Alex Garcia,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,755.824693,769.4841805,2,3,2.91,5,0.4,4,-1.74,-28,-4,0.4,3,1,3,2
+a2b12c3f3d60ff69,Alex Garcia,523fa774700d7d3f,Court McGee,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,769.4841805,755.824693,-2,-3,-2.91,-5,-0.4,-4,1.74,28,4,-0.4,-3,-1,-3,-2
+fcd448a2fe1a23cc,Gian Villante,06f36cf4bd97ec77,Ed Herman,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,741.2732443,754.4020155,2,-1,1.07,-7,2.26,12,-1.88,-28,23,-1.3,0,-2,4,2
+06f36cf4bd97ec77,Ed Herman,fcd448a2fe1a23cc,Gian Villante,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,754.4020155,741.2732443,-2,1,-1.07,7,-2.26,-12,1.88,28,-23,1.3,0,2,-4,-2
+d0e50a3d1b250708,Andre Soukhamthath,f2477cf43c4975cc,Jonathan Martinez,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,722.2833778,750,1,-5,-1.51,-18,-1.38,12,0.59,13,75,0.2,2,2,2,0
+f2477cf43c4975cc,Jonathan Martinez,d0e50a3d1b250708,Andre Soukhamthath,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,750,722.2833778,-1,5,1.51,18,1.38,-12,-0.59,-13,-75,-0.2,-2,-2,-2,0
+67f272324a030d00,Misha Cirkunov,e51e5cb722bd47a8,Patrick Cummins,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,780.460159,767.2976374,1,1,0.29,2,-0.85,10,0.02,18,43,2.2,-2,-4,3,2
+e51e5cb722bd47a8,Patrick Cummins,67f272324a030d00,Misha Cirkunov,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,767.2976374,780.460159,-1,-1,-0.29,-2,0.85,-10,-0.02,-18,-43,-2.2,2,4,-3,-2
+511e82663651438d,Michael Johnson,02f2a9702ba3d167,Artem Lobov,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,776.0008128,725.473564,1,8,0.79,-3,-0.86,8,0.2,20,25,0.1,9,4,5,5
+02f2a9702ba3d167,Artem Lobov,511e82663651438d,Michael Johnson,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,725.473564,776.0008128,-1,-8,-0.79,3,0.86,-8,-0.2,-20,-25,-0.1,-9,-4,-5,-5
+d4c9dcd330403612,Anthony Smith,0845c81e37d3bcb3,Volkan Oezdemir,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,804.5724086,790.2837265,2,1,-2.2,-1,-0.7,-7,0.18,-22,-24,1,6,3,5,3
+0845c81e37d3bcb3,Volkan Oezdemir,d4c9dcd330403612,Anthony Smith,33a331684283900f,UFC Fight Night: Oezdemir vs. Smith,790.2837265,804.5724086,-2,-1,2.2,1,0.7,7,-0.18,22,24,-1,-6,-3,-5,-3
+ab943cd2c3c17825,Marcos Rogerio de Lima,efa1f6b42c86793c,Adam Wieczorek,20821819c401ced8,UFC 230: Cormier vs. Lewis,762.2936425,780.074489,-4,-6,1.89,13,1.12,5,0.49,27,-18,0.5,3,3,2,0
+efa1f6b42c86793c,Adam Wieczorek,ab943cd2c3c17825,Marcos Rogerio de Lima,20821819c401ced8,UFC 230: Cormier vs. Lewis,780.074489,762.2936425,4,6,-1.89,-13,-1.12,-5,-0.49,-27,18,-0.5,-3,-3,-2,0
+98d961097baaf308,Shane Burgos,a7151778b3381036,Kurt Holobaugh,20821819c401ced8,UFC 230: Cormier vs. Lewis,780.2106643,720.1426894,0,2,1.42,2,1.23,17,-0.09,60,44,-0.7,4,-3,5,7
+a7151778b3381036,Kurt Holobaugh,98d961097baaf308,Shane Burgos,20821819c401ced8,UFC 230: Cormier vs. Lewis,720.1426894,780.2106643,0,-2,-1.42,-2,-1.23,-17,0.09,-60,-44,0.7,-4,3,-5,-7
+dccb63727f2f5f74,Matt Frevola,f9b200db02b488d9,Lando Vannata,20821819c401ced8,UFC 230: Cormier vs. Lewis,735.3704678,744.1199219,0,0,-1.16,-6,-1.32,3,0.93,-1,13,1.4,-1,-2,0,1
+f9b200db02b488d9,Lando Vannata,dccb63727f2f5f74,Matt Frevola,20821819c401ced8,UFC 230: Cormier vs. Lewis,744.1199219,735.3704678,0,0,1.16,6,1.32,-3,-0.93,1,-13,-1.4,1,2,0,-1
+4e0692ad070976e4,Lyman Good,484acc7b0f856ce9,Ben Saunders,20821819c401ced8,UFC 230: Cormier vs. Lewis,750.0718201,776.6338082,-2,-3,2.54,-1,0.99,15,0.38,60,17,-1,-7,-7,3,0
+484acc7b0f856ce9,Ben Saunders,4e0692ad070976e4,Lyman Good,20821819c401ced8,UFC 230: Cormier vs. Lewis,776.6338082,750.0718201,2,3,-2.54,1,-0.99,-15,-0.38,-60,-17,1,7,7,-3,0
+0d62719b1dcf7c40,Sheymon Moraes,1291edf2d566a71a,Julio Arce,20821819c401ced8,UFC 230: Cormier vs. Lewis,751.438774,780.5304985,1,2,-1.65,5,0.61,0,-0.3,-16,-46,-0.9,0,0,3,0
+1291edf2d566a71a,Julio Arce,0d62719b1dcf7c40,Sheymon Moraes,20821819c401ced8,UFC 230: Cormier vs. Lewis,780.5304985,751.438774,-1,-2,1.65,-5,-0.61,0,0.3,16,46,0.9,0,0,-3,0
+4234f0097c83fa62,Sijara Eubanks,4498b382c65a7faa,Roxanne Modafferi,20821819c401ced8,UFC 230: Cormier vs. Lewis,765.3981103,735.3744204,-3,-2,0.63,4,-2.9,13,1.37,47,42,-0.2,1,-5,3,6
+4498b382c65a7faa,Roxanne Modafferi,4234f0097c83fa62,Sijara Eubanks,20821819c401ced8,UFC 230: Cormier vs. Lewis,735.3744204,765.3981103,3,2,-0.63,-4,2.9,-13,-1.37,-47,-42,0.2,-1,5,-3,-6
+c07efc18b231f170,Jordan Rinaldi,bb1a2cdad6ff34db,Jason Knight,20821819c401ced8,UFC 230: Cormier vs. Lewis,738.4318827,753.6231242,0,1,-1.56,7,-0.76,3,0.73,14,-27,-0.1,-2,-3,5,1
+bb1a2cdad6ff34db,Jason Knight,c07efc18b231f170,Jordan Rinaldi,20821819c401ced8,UFC 230: Cormier vs. Lewis,753.6231242,738.4318827,0,-1,1.56,-7,0.76,-3,-0.73,-14,27,0.1,2,3,-5,-1
+1338e2c7480bdf9e,Israel Adesanya,b1a3e0aca758b322,Derek Brunson,20821819c401ced8,UFC 230: Cormier vs. Lewis,801.5790589,827.5764299,3,3,1.48,11,-0.47,21,-2.74,-28,-15,-0.3,-8,-6,6,-2
+b1a3e0aca758b322,Derek Brunson,1338e2c7480bdf9e,Israel Adesanya,20821819c401ced8,UFC 230: Cormier vs. Lewis,827.5764299,801.5790589,-3,-3,-1.48,-11,0.47,-21,2.74,28,15,0.3,8,6,-6,2
+37d5b176d438d2a5,Karl Roberson,045f25b3a4c08e81,Jack Marshman,20821819c401ced8,UFC 230: Cormier vs. Lewis,750.4921598,753.8947441,1,1,-0.34,25,-2.39,17,1.9,75,28,1.3,0,-2,3,2
+045f25b3a4c08e81,Jack Marshman,37d5b176d438d2a5,Karl Roberson,20821819c401ced8,UFC 230: Cormier vs. Lewis,753.8947441,750.4921598,-1,-1,0.34,-25,2.39,-17,-1.9,-75,-28,-1.3,0,2,-3,-2
+13a0275fa13c4d26,Jared Cannonier,d2c55d1d2e67773b,David Branch,20821819c401ced8,UFC 230: Cormier vs. Lewis,738.5618895,779.1096371,-2,-1,1.96,10,0.94,11,-2.37,1,2,0,0,0,2,0
+d2c55d1d2e67773b,David Branch,13a0275fa13c4d26,Jared Cannonier,20821819c401ced8,UFC 230: Cormier vs. Lewis,779.1096371,738.5618895,2,1,-1.96,-10,-0.94,-11,2.37,-1,-2,0,0,0,-2,0
+7a703c565ccaa18f,Jacare Souza,3a8176e15b9887c1,Chris Weidman,20821819c401ced8,UFC 230: Cormier vs. Lewis,833.5043199,865.5507469,-1,-6,-0.54,4,-0.77,12,-0.75,-11,-20,0.7,9,1,2,8
+3a8176e15b9887c1,Chris Weidman,7a703c565ccaa18f,Jacare Souza,20821819c401ced8,UFC 230: Cormier vs. Lewis,865.5507469,833.5043199,1,6,0.54,-4,0.77,-12,0.75,11,20,-0.7,-9,-1,-2,-8
+d967f0128c323de6,Daniel Cormier,d3df1add9d9a7efb,Derrick Lewis,20821819c401ced8,UFC 230: Cormier vs. Lewis,895.4300886,874.6826883,-4,-7,1.08,-1,0.16,14,1.55,22,25,0.5,7,-3,4,10
+d3df1add9d9a7efb,Derrick Lewis,d967f0128c323de6,Daniel Cormier,20821819c401ced8,UFC 230: Cormier vs. Lewis,874.6826883,895.4300886,4,7,-1.08,1,-0.16,-14,-1.55,-22,-25,-0.5,-7,3,-4,-10
+f57dd0bfa8c17813,Mark De La Rosa,b12fc8a41e82d3a2,Joby Sanchez,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,749.3866823,717.4076487,0,-3,0.02,7,0.18,-6,0.1,-51,-1,0.1,1,-3,5,4
+b12fc8a41e82d3a2,Joby Sanchez,f57dd0bfa8c17813,Mark De La Rosa,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,717.4076487,749.3866823,0,3,-0.02,-7,-0.18,6,-0.1,51,1,-0.1,-1,3,-5,-4
+a0c64f272b65d441,Eric Shelton,2fe9032955c2e013,Joseph Morales,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,721.4487197,750.7924326,0,-1,1.17,7,-0.09,5,2.87,1,20,-2.4,1,1,3,0
+2fe9032955c2e013,Joseph Morales,a0c64f272b65d441,Eric Shelton,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750.7924326,721.4487197,0,1,-1.17,-7,0.09,-5,-2.87,-1,-20,2.4,-1,-1,-3,0
+207773daeb4afa7b,Devonte Smith,902ec2cc48c8ae8a,Julian Erosa,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,748.4660918,-4,1,8.03,11,0.58,10,-1.64,-60,25,-1.1,0,-2,3,2
+902ec2cc48c8ae8a,Julian Erosa,207773daeb4afa7b,Devonte Smith,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,748.4660918,750,4,-1,-8.03,-11,-0.58,-10,1.64,60,-25,1.1,0,2,-3,-2
+0052de90691d4a93,Davi Ramos,3956bdc8ab2e54b3,John Gunther,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,772.0165937,766,-3,-2,1.47,1,-1,10,-3.8,16,0,1.4,2,0,4,2
+3956bdc8ab2e54b3,John Gunther,0052de90691d4a93,Davi Ramos,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,772.0165937,3,2,-1.47,-1,1,-10,3.8,-16,0,-1.4,-2,0,-4,-2
+d76ad9a08c4408ff,Bobby Moffett,4bd6b4800070b069,Chas Skelly,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,795.3243389,-1,2,1.52,12,-0.73,1,1.44,66,15,-0.1,-5,-4,3,-1
+4bd6b4800070b069,Chas Skelly,d76ad9a08c4408ff,Bobby Moffett,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,795.3243389,750,1,-2,-1.52,-12,0.73,-1,-1.44,-66,-15,0.1,5,4,-3,1
+b4c6c904a9ffc5e8,Ashley Yoder,d4a31850a7457f1b,Amanda Cooper,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,703.4956878,734.0267366,4,5,-0.88,-9,0.45,0,-0.28,12,36,-1,-1,-1,3,0
+d4a31850a7457f1b,Amanda Cooper,b4c6c904a9ffc5e8,Ashley Yoder,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,734.0267366,703.4956878,-4,-5,0.88,9,-0.45,0,0.28,-12,-36,1,1,1,-3,0
 5bf31a46becc1204,Michael Trizano,2844b047183a1adb,Luis Pena,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,766,-4,-3,1.43,26,-1.4,21,-1.12,30,46,0.2,1,-1,3,2
 2844b047183a1adb,Luis Pena,5bf31a46becc1204,Michael Trizano,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,766,766,4,3,-1.43,-26,1.4,-21,1.12,-30,-46,-0.2,-1,1,-3,-2
 6a740daf1b279661,Maycee Barber,2244d9a2b64b8c3b,Hannah Cifers,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,750,4,2,2.62,10,-5.32,3,2.12,30,20,0,1,-1,2,2
 2244d9a2b64b8c3b,Hannah Cifers,6a740daf1b279661,Maycee Barber,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,750,-4,-2,-2.62,-10,5.32,-3,-2.12,-30,-20,0,-1,1,-2,-2
-08af939f41b5a57b,Beneil Dariush,d945aae53e3e54e6,Thiago Moises,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,879.8280634,750,1,2,1.65,7,-0.31,23,1.47,30,30,-2.3,9,3,2,6
-d945aae53e3e54e6,Thiago Moises,08af939f41b5a57b,Beneil Dariush,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,879.8280634,-1,-2,-1.65,-7,0.31,-23,-1.47,-30,-30,2.3,-9,-3,-2,-6
-1d239d571e342453,Germaine de Randamie,fc169c387b4b465d,Raquel Pennington,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,813.5189452,841.0309978,2,4,-0.29,-2,-1.15,5,-1.16,-28,24,-0.7,1,-2,6,3
-fc169c387b4b465d,Raquel Pennington,1d239d571e342453,Germaine de Randamie,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,841.0309978,813.5189452,-2,-4,0.29,2,1.15,-5,1.16,28,-24,0.7,-1,2,-6,-3
-1d00756835ca67c9,Donald Cerrone,f2b6fdb20675b11c,Mike Perry,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,1032.484627,841.4832201,3,2,0.07,3,-0.42,-3,0.45,-21,3,1.4,22,7,2,15
-f2b6fdb20675b11c,Mike Perry,1d00756835ca67c9,Donald Cerrone,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,841.4832201,1032.484627,-3,-2,-0.07,-3,0.42,3,-0.45,21,-3,-1.4,-22,-7,-2,-15
-cbf5e6f231b55443,Yair Rodriguez,c451d67c09c55418,Chan Sung Jung,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,863.2540857,825.9405904,4,-1,-0.06,4,-0.7,-2,0.21,-8,-7,0.3,3,-3,2,6
-c451d67c09c55418,Chan Sung Jung,cbf5e6f231b55443,Yair Rodriguez,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,825.9405904,863.2540857,-4,1,0.06,-4,0.7,2,-0.21,8,7,-0.3,-3,3,-2,-6
-bf0e700106d00e55,Austin Arnett,2c2caf2f2bab9df5,Humberto Bandenay,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,863.2540857,766.7363068,1,-3,-2.34,-40,-1.78,8,0.39,20,50,-13.4,0,0,3,0
-2c2caf2f2bab9df5,Humberto Bandenay,bf0e700106d00e55,Austin Arnett,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,766.7363068,863.2540857,-1,3,2.34,40,1.78,-8,-0.39,-20,-50,13.4,0,0,-3,0
-e51fcd9cd84c0b93,Michel Prazeres,e17ac6410c8377f4,Bartosz Fabinski,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,956.8177355,797.383755,-6,-8,0.24,-26,1.35,0,-3.18,-33,-53,0.6,7,1,9,6
-e17ac6410c8377f4,Bartosz Fabinski,e51fcd9cd84c0b93,Michel Prazeres,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,797.383755,956.8177355,6,8,-0.24,26,-1.35,0,3.18,33,53,-0.6,-7,-1,-9,-6
-98215d037be5bcb7,Cynthia Calvillo,5c126c6aac3ef364,Poliana Botelho,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,783.5787754,783.4469632,-4,-11,-1.6,-27,1.42,13,0.63,-50,-31,2.5,2,0,2,2
-5c126c6aac3ef364,Poliana Botelho,98215d037be5bcb7,Cynthia Calvillo,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,783.4469632,783.5787754,4,11,1.6,27,-1.42,-13,-0.63,50,31,-2.5,-2,0,-2,-2
-7c7332319c14094c,Marlon Vera,d05412b513b19621,Guido Cannetti,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,824.8296137,783.7658064,2,2,0.54,-8,2.26,-3,-1.97,-22,-11,0.7,4,1,3,3
-d05412b513b19621,Guido Cannetti,7c7332319c14094c,Marlon Vera,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,783.7658064,824.8296137,-2,-2,-0.54,8,-2.26,3,1.97,22,11,-0.7,-4,-1,-3,-3
-2e585c701f72fe55,Ian Heinisch,dbc17725b887860a,Cezar Ferreira,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,888.2648239,-2,-3,0.93,20,-0.58,-7,-2.73,-63,-93,-0.6,-8,-5,2,-3
-dbc17725b887860a,Cezar Ferreira,2e585c701f72fe55,Ian Heinisch,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,888.2648239,750,2,3,-0.93,-20,0.58,7,2.73,63,93,0.6,8,5,-2,3
-3974fa35c917af1d,Ricardo Lamas,92a9aa9c93192871,Darren Elkins,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,905.4127513,934.6279726,-2,0,-0.56,7,-0.2,4,-1.09,-5,-13,-0.3,0,1,3,-1
-92a9aa9c93192871,Darren Elkins,3974fa35c917af1d,Ricardo Lamas,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,934.6279726,905.4127513,2,0,0.56,-7,0.2,-4,1.09,5,13,0.3,0,-1,-3,1
+08af939f41b5a57b,Beneil Dariush,d945aae53e3e54e6,Thiago Moises,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,827.4115624,750,1,2,1.65,7,-0.31,23,1.47,30,30,-2.3,9,3,2,6
+d945aae53e3e54e6,Thiago Moises,08af939f41b5a57b,Beneil Dariush,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,750,827.4115624,-1,-2,-1.65,-7,0.31,-23,-1.47,-30,-30,2.3,-9,-3,-2,-6
+1d239d571e342453,Germaine de Randamie,fc169c387b4b465d,Raquel Pennington,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,795.96988,797.9621298,2,4,-0.29,-2,-1.15,5,-1.16,-28,24,-0.7,1,-2,6,3
+fc169c387b4b465d,Raquel Pennington,1d239d571e342453,Germaine de Randamie,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,797.9621298,795.96988,-2,-4,0.29,2,1.15,-5,1.16,28,-24,0.7,-1,2,-6,-3
+1d00756835ca67c9,Donald Cerrone,f2b6fdb20675b11c,Mike Perry,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,876.6718928,784.7367751,3,2,0.07,3,-0.42,-3,0.45,-21,3,1.4,22,7,2,15
+f2b6fdb20675b11c,Mike Perry,1d00756835ca67c9,Donald Cerrone,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,784.7367751,876.6718928,-3,-2,-0.07,-3,0.42,3,-0.45,21,-3,-1.4,-22,-7,-2,-15
+cbf5e6f231b55443,Yair Rodriguez,c451d67c09c55418,Chan Sung Jung,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,828.3009314,803.4238419,4,-1,-0.06,4,-0.7,-2,0.21,-8,-7,0.3,3,-3,2,6
+c451d67c09c55418,Chan Sung Jung,cbf5e6f231b55443,Yair Rodriguez,42c96a9c4802e2e1,UFC Fight Night: Korean Zombie vs. Rodriguez,803.4238419,828.3009314,-4,1,0.06,-4,0.7,2,-0.21,8,7,-0.3,-3,3,-2,-6
+776a58a67665a171,Nad Narimani,bbc9ab95fa766493,Anderson Dos Santos,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,766,750,1,3,1.23,23,-3,11,3.5,43,20,-1,2,-1,3,3
+bbc9ab95fa766493,Anderson Dos Santos,776a58a67665a171,Nad Narimani,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,766,-1,-3,-1.23,-23,3,-11,-3.5,-43,-20,1,-2,1,-3,-3
+25af5e832f17b474,Jesus Pinedo,065eb44700e641a4,Devin Powell,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,734.8596696,-2,2,1.12,1,0.2,7,5,100,100,-0.6,0,-3,2,3
+065eb44700e641a4,Devin Powell,25af5e832f17b474,Jesus Pinedo,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,734.8596696,750,2,-2,-1.12,-1,-0.2,-7,-5,-100,-100,0.6,0,3,-2,-3
+a12a8314adc1c1c9,Laureano Staropoli,c487223b0289bda9,Hector Aldana,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,734.6728182,1,3,2.11,-6,-0.61,-3,-1.21,-100,0,0,1,-2,3,3
+c487223b0289bda9,Hector Aldana,a12a8314adc1c1c9,Laureano Staropoli,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,734.6728182,750,-1,-3,-2.11,6,0.61,3,1.21,100,0,0,-1,2,-3,-3
+bf0e700106d00e55,Austin Arnett,2c2caf2f2bab9df5,Humberto Bandenay,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,718.0339081,751.3335506,1,-3,2.05,3,0.71,23,-1.31,-48,-31,-0.6,0,0,3,0
+2c2caf2f2bab9df5,Humberto Bandenay,bf0e700106d00e55,Austin Arnett,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,751.3335506,718.0339081,-1,3,-2.05,-3,-0.71,-23,1.31,48,31,0.6,0,0,-3,0
+a0f0004aadf10b71,Alexandre Pantoja,7c3c48cf54a2848e,Ulka Sasaki,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,781.6953892,754.822106,-5,-4,2.15,5,0.88,9,-2.28,7,19,0.6,0,-4,3,4
+7c3c48cf54a2848e,Ulka Sasaki,a0f0004aadf10b71,Alexandre Pantoja,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,754.822106,781.6953892,5,4,-2.15,-5,-0.88,-9,2.28,-7,-19,-0.6,0,4,-3,-4
+e51fcd9cd84c0b93,Michel Prazeres,e17ac6410c8377f4,Bartosz Fabinski,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,851.2709862,796.6803913,-6,-8,0.37,-23,0.97,7,-2.95,-32,-33,0.7,7,1,9,6
+e17ac6410c8377f4,Bartosz Fabinski,e51fcd9cd84c0b93,Michel Prazeres,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,796.6803913,851.2709862,6,8,-0.37,23,-0.97,-7,2.95,32,33,-0.7,-7,-1,-9,-6
+98215d037be5bcb7,Cynthia Calvillo,5c126c6aac3ef364,Poliana Botelho,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,779.2187358,781.2944192,-4,-11,-0.62,-21,0.59,16,1.28,-47,-19,2.6,2,0,2,2
+5c126c6aac3ef364,Poliana Botelho,98215d037be5bcb7,Cynthia Calvillo,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,781.2944192,779.2187358,4,11,0.62,21,-0.59,-16,-1.28,47,19,-2.6,-2,0,-2,-2
+7c7332319c14094c,Marlon Vera,d05412b513b19621,Guido Cannetti,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,767.0929894,752.8193279,2,2,0.43,-8,1.98,1,-2.02,-13,-7,1,4,1,3,3
+d05412b513b19621,Guido Cannetti,7c7332319c14094c,Marlon Vera,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,752.8193279,767.0929894,-2,-2,-0.43,8,-1.98,-1,2.02,13,7,-1,-4,-1,-3,-3
+2e585c701f72fe55,Ian Heinisch,dbc17725b887860a,Cezar Ferreira,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,818.8968787,-2,-3,1.66,16,-0.47,-3,-2.16,-45,-40,1.1,-8,-5,2,-3
+dbc17725b887860a,Cezar Ferreira,2e585c701f72fe55,Ian Heinisch,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,818.8968787,750,2,3,-1.66,-16,0.47,3,2.16,45,40,-1.1,8,5,-2,3
+c21f26bbde777573,Johnny Walker,749f572d1d3161fb,Khalil Rountree Jr.,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,750,783.9367031,4,6,3.07,36,0.07,-13,0.89,100,50,2.3,-2,-3,2,1
+749f572d1d3161fb,Khalil Rountree Jr.,c21f26bbde777573,Johnny Walker,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,783.9367031,750,-4,-6,-3.07,-36,-0.07,13,-0.89,-100,-50,-2.3,2,3,-2,-1
+3974fa35c917af1d,Ricardo Lamas,92a9aa9c93192871,Darren Elkins,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,808.8665232,862.9703674,-2,0,-0.49,8,-0.22,6,-1.02,-3,-10,-0.3,0,1,3,-1
+92a9aa9c93192871,Darren Elkins,3974fa35c917af1d,Ricardo Lamas,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,862.9703674,808.8665232,2,0,0.49,-8,0.22,-6,1.02,3,10,0.3,0,-1,-3,1
+6d1bffff14897645,Santiago Ponzinibbio,84b3e7d38f2d2ec5,Neil Magny,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,847.0009373,872.5476004,-3,-7,0.41,-7,1.8,8,-2.08,-2,0,-0.3,-5,-4,8,-1
+84b3e7d38f2d2ec5,Neil Magny,6d1bffff14897645,Santiago Ponzinibbio,aa3153a9941b4d44,UFC Fight Night: Magny vs. Ponzinibbio,872.5476004,847.0009373,3,7,-0.41,7,-1.8,-8,2.08,2,0,0.3,5,4,-8,1
+d2bc285ead803db0,Louis Smolka,3cf18e01cb6cbde3,Su Mudaerji,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,744.5162619,750,1,-4,1.39,-15,-1.16,3,1.75,34,-29,-2,6,4,2,2
+3cf18e01cb6cbde3,Su Mudaerji,d2bc285ead803db0,Louis Smolka,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,750,744.5162619,-1,4,-1.39,15,1.16,-3,-1.75,-34,29,2,-6,-4,-2,-2
+3a46b268013afede,Kevin Holland,e9ac7bfb65c25497,John Phillips,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,736.7102234,734,4,6,2.55,22,-4.2,27,1.7,50,41,1,1,-1,3,2
+e9ac7bfb65c25497,John Phillips,3a46b268013afede,Kevin Holland,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,734,736.7102234,-4,-6,-2.55,-22,4.2,-27,-1.7,-50,-41,-1,-1,1,-3,-2
+c41d426cc7326d1b,Yan Xiaonan,a851c35f58199231,Syuri Kondo,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,779.4497253,749.2329738,1,-3,-0.26,-2,-4.27,5,0,0,-34,0,2,-2,5,4
+a851c35f58199231,Syuri Kondo,c41d426cc7326d1b,Yan Xiaonan,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,749.2329738,779.4497253,-1,3,0.26,2,4.27,-5,0,0,34,0,-2,2,-5,-4
+31bbd39c0a075d4e,Liu Pingyuan,ea3dcc417c322064,Martin Day,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,764.6179542,750,-4,-1,-2.7,-8,0.93,-13,-0.5,-46,-30,1,2,-1,3,3
+ea3dcc417c322064,Martin Day,31bbd39c0a075d4e,Liu Pingyuan,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,750,764.6179542,4,1,2.7,8,-0.93,13,0.5,46,30,-1,-2,1,-3,-3
+1ebe20ebbfa15e29,Zhang Weili,8f382b3baa954d2a,Jessica Aguilar,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,765.9711305,734.8407614,1,12,1.11,-4,-4.68,12,0.38,14,56,1.6,1,-3,3,4
+8f382b3baa954d2a,Jessica Aguilar,1ebe20ebbfa15e29,Zhang Weili,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,734.8407614,765.9711305,-1,-12,-1.11,4,4.68,-12,-0.38,-14,-56,-1.6,-1,3,-3,-4
+d1528ac5675558b1,Rashad Coulter,f1175ea3aafbf351,Hu Yaozong,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,701.3146699,733.1799557,-4,4,0.39,4,1.45,12,0,0,62,-0.7,1,1,3,0
+f1175ea3aafbf351,Hu Yaozong,d1528ac5675558b1,Rashad Coulter,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,733.1799557,701.3146699,4,-4,-0.39,-4,-1.45,-12,0,0,-62,0.7,-1,-1,-3,0
+fdbefee0827e1567,Wu Yanan,f923e012414c883e,Lauren Mueller,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,733.3022526,766.7363068,3,-1,-2.6,1,-0.64,-15,-0.09,-7,-53,0.8,0,0,2,0
+f923e012414c883e,Lauren Mueller,fdbefee0827e1567,Wu Yanan,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,766.7363068,733.3022526,-3,1,2.6,-1,0.64,15,0.09,7,53,-0.8,0,0,-2,0
+cdb96af67d096b1e,Alex Morono,32490e80ddab1e5a,Song Kenan,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,771.5988304,779.9458638,-1,1,-0.13,-4,-2.84,9,0,0,-10,0.5,2,1,2,1
+32490e80ddab1e5a,Song Kenan,cdb96af67d096b1e,Alex Morono,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,779.9458638,771.5988304,1,-1,0.13,4,2.84,-9,0,0,10,-0.5,-2,-1,-2,-1
+e64b96c07d7ce999,Li Jingliang,3bb2dc8e87b10a46,David Zawada,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,803.8017922,735.3194892,0,-4,1.37,0,-1.07,4,0.11,11,-13,-2.6,8,1,4,7
+3bb2dc8e87b10a46,David Zawada,e64b96c07d7ce999,Li Jingliang,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,735.3194892,803.8017922,0,4,-1.37,0,1.07,-4,-0.11,-11,13,2.6,-8,-1,-4,-7
+efb96bf3e9ada36f,Song Yadong,37098a6e6c27fb66,Vince Morales,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,781.7229625,750,1,-3,-1.54,-2,-2.26,15,1.54,100,75,1,3,-1,4,4
+37098a6e6c27fb66,Vince Morales,efb96bf3e9ada36f,Song Yadong,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,750,781.7229625,-1,3,1.54,2,2.26,-15,-1.54,-100,-75,-1,-3,1,-4,-4
+b4ad3a06ee4d660c,Alistair Overeem,f14cf73e51b29254,Sergei Pavlovich,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,802.9301629,750,1,-4,0.56,21,-3.12,46,1.42,62,23,1,30,13,2,17
+f14cf73e51b29254,Sergei Pavlovich,b4ad3a06ee4d660c,Alistair Overeem,de25520d54eab12d,UFC Fight Night: Blaydes vs. Ngannou 2,750,802.9301629,-1,4,-0.56,-21,3.12,-46,-1.42,-62,-23,-1,-30,-13,-2,-17

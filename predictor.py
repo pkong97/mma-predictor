@@ -43,6 +43,9 @@ def classification_model(model, data, predictors, outcome):
     #Fit the model again so that it can be refered outside the function:
     model.fit(data[predictors],data[outcome]) 
 
+test_set = input('Enter name and path of testing set: ')
+train_set = input('Enter name and path of training set: ')
+
 test = pd.read_csv('data/test.csv')
 train = pd.read_csv('data/train.csv')
 

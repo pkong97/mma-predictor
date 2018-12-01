@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-fighters = pd.read_csv("data/fighter-database.csv")
-fights = pd.read_csv("data/fight-database.csv")
+fighters = pd.read_csv("C:/Users/patri/OneDrive/Projects/mma-predictor/data/fighter-database.csv")
+fights = pd.read_csv("C:/Users/patri/OneDrive/Projects/mma-predictor/data/fight-database.csv")
 
 # track differences in databases
 f_ids = list(fights['f1_id'].append(fights['f2_id']))
@@ -58,7 +58,7 @@ for i in range(len(fights)-1, 0, -1):
     f2_data = fighters.loc[fighters['id'] == id_opp]
     
     # determine current elo rating
-    if ID not in list(comp['id']):
+    if ID not in list(comp['id'].append(comp['id_opp'])):
         elo = start_elo
     elif ID in elos.keys():
         elo = elos[ID]
@@ -80,12 +80,11 @@ for i in range(len(fights)-1, 0, -1):
     losses_diff = f1_data['losses'].values[0] - f2_data['losses'].values[0]
     momentum_diff = f1_data['momentum'].values[0] - f2_data['momentum'].values[0]
     wl_diff_diff = f1_data['wl_diff'].values[0] - f2_data['wl_diff'].values[0]
-    if fights.loc[i, 'winner_id'] == ID:
-        outcome = 'W'
-        elos[ID] = update_elo(elo, elo_opp, 'A', True)
-    else:
-        outcome = 'L'
-        elos[ID] = update_elo(elo, elo_opp, 'A', False)
+    
+    outcome = 'W'
+    elos[ID] = update_elo(elo, elo_opp, 'A', True)
+    elos[id_opp] = update_elo(elo_opp, elo, 'A', False)
+
     comp = comp.append([{'id':ID,'name':name,'id_opp':id_opp,'name_opp':name_opp,'event_id':event_id,'event_name':event_name,
                          'elo':elo,'elo_opp':elo_opp, 'height_diff':height_diff,'reach_diff':reach_diff,
                          'ss_min_diff':ss_min_diff,'str_acc_diff':str_acc_diff,'str_a_min_diff':str_a_min_diff,
@@ -114,4 +113,4 @@ comp['losses_diff'] = comp.losses_diff.astype(float)
 comp['momentum_diff'] = comp.momentum_diff.astype(float)
 comp['wl_diff_diff'] = comp.wl_diff_diff.astype(float)
 
-comp.to_csv('data/composite-database.csv')
+comp.to_csv('C:/Users/patri/OneDrive/Projects/mma-predictor/data/composite-database.csv')
