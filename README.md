@@ -5,17 +5,17 @@ The data was gathered from fightmetric.com using Beautiful Soup and munged with 
 # Predictions
 UFC Fight Night: Dos Santos vs. Tuivasa
 
-| Fighter1  | Fighter2 | Predicted Winner |
-| --------- | -------- | ---------------- |
-| Junior Dos Santos  | Tai Tuivasa  | 1 |
-| Mauricio Rua | Tyson Pedro  | 1 |
-| Mark Hunt | Justin Willis | 2 | 
-| Jake Matthews | Anthony Rocco Martin | 1 |
-| Jimmy Crute | Paul Craig | 1 |
-| Yushin Okami | Aleksei Kunchenko | 1 |
-| Wilson Reis | Ben Nguyen | 2 |
-| Keita Nakamura | Salim Touahri | 1 |
-| Mizuto Hirota | Christos Giagos | 2 |
+| Fighter1  | Fighter2 | Predicted Winner | Correct? |
+| --------- | -------- | ---------------- | |
+| Junior Dos Santos  | Tai Tuivasa  | Fighter1 | |
+| Mauricio Rua | Tyson Pedro  | Fighter1 | |
+| Mark Hunt | Justin Willis | Fighter2 | |
+| Jake Matthews | Anthony Rocco Martin | Fighter1 | |
+| Jimmy Crute | Paul Craig | Fighter1 | |
+| Yushin Okami | Aleksei Kunchenko | Fighter1 | |
+| Wilson Reis | Ben Nguyen | Fighter2 | |
+| Keita Nakamura | Salim Touahri | Fighter1 | |
+| Mizuto Hirota | Christos Giagos | Fighter2 | |
 
 # TODO
 - [ ] Chain together scripts with workflow engine
