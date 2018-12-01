@@ -6,7 +6,7 @@ The data was gathered from fightmetric.com using Beautiful Soup and munged with 
 UFC Fight Night: Dos Santos vs. Tuivasa
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
-| --------- | -------- | ---------------- | |
+| --------- | -------- | ---------------- | -- |
 | Junior Dos Santos  | Tai Tuivasa  | Fighter1 | |
 | Mauricio Rua | Tyson Pedro  | Fighter1 | |
 | Mark Hunt | Justin Willis | Fighter2 | |
