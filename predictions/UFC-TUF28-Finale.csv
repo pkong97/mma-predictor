@@ -1,0 +1,8 @@
+id,name,id_opp,name_opp,event_id,event_name,elo,elo_opp,height_diff,reach_diff,ss_min_diff,str_acc_diff,str_a_min_diff,str_def_diff,td_avg_diff,td_acc_diff,td_def_diff,sub_avg_diff,wins_diff,losses_diff,momentum_diff,wl_diff_diff,outcome
+6a2f7c151031653d,Rafael Dos Anjos,f1b2aa7853d1ed6e,Kamaru Usman,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,886.3660622,875.2016528,-4,-6,0.07,-4,1.72,1,-1.74,-7,-36,0.4,9,8,-9,1,L
+6bd02119599741a4,Pedro Munhoz,5ef0088c1b19beeb,Bryan Caraway,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,813.8177531,796.7329982,-2,-4,2.36,8,1.91,4,-1.47,-5,-9,0.5,-2,-2,2,0,L
+a20f234df70f2182,Ji Yeon Kim,d7338bcb141abd2c,Antonina Shevchenko,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,765.9034013,750,-1,-3,-4.26,-34,3.24,13,0,0,17,0,2,1,1,1,W
+814ff3018127e8fc,Rick Glenn,cf946e03ba2e7666,Kevin Aguilar,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,771.793564,750,5,-2,0.86,-6,0.27,4,0.8,16,-6,0.4,3,2,1,1,W
+80eacd4da0617c57,Joseph Benavidez,ab2b4ff41d6ebe0f,Alex Perez,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,866.7950838,795.281974,-2,0,-1.81,-14,-0.58,3,-2.42,-16,-34,-1.4,15,5,-4,10,W
+37c5366d18ed6c05,Roosevelt Roberts,18e8b7070228e728,Darrell Horcher,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,750,738.3879394,4,3,2.95,28,-2.38,-15,5.85,-25,53,1.3,-1,-2,0,1,W
+4b47e71384a9522f,Tim Means,9b1e3fb4f8cbd5b7,Ricky Rainey,c7ac79839e86ce33,UFC Fight Night: Blaydes vs. Ngannou 2,764.6291612,733.3038461,1,-2,2.24,-4,1.12,16,-0.33,26,-8,0.2,9,6,0,3,W
