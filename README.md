@@ -9,13 +9,13 @@ UFC Fight Night: Dos Santos vs. Tuivasa
 | --------- | -------- | ---------------- | -- |
 | Junior Dos Santos  | Tai Tuivasa  | Fighter1 | |
 | Mauricio Rua | Tyson Pedro  | Fighter1 | |
-| Mark Hunt | Justin Willis | Fighter2 | |
-| Jake Matthews | Anthony Rocco Martin | Fighter1 | |
-| Jimmy Crute | Paul Craig | Fighter1 | |
-| Yushin Okami | Aleksei Kunchenko | Fighter1 | |
-| Wilson Reis | Ben Nguyen | Fighter2 | |
-| Keita Nakamura | Salim Touahri | Fighter1 | |
-| Mizuto Hirota | Christos Giagos | Fighter2 | |
+| Mark Hunt | Justin Willis | Fighter2 | Y |
+| Jake Matthews | Anthony Rocco Martin | Fighter1 | N |
+| Jimmy Crute | Paul Craig | Fighter1 | Y |
+| Yushin Okami | Aleksei Kunchenko | Fighter1 | N |
+| Wilson Reis | Ben Nguyen | Fighter2 | N |
+| Keita Nakamura | Salim Touahri | Fighter1 | Y |
+| Mizuto Hirota | Christos Giagos | Fighter2 | Y |
 
 # TODO
 - [ ] Chain together scripts with workflow engine
