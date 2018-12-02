@@ -7,7 +7,7 @@ UFC Fight Night: Dos Santos vs. Tuivasa
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
 | --------- | -------- | ---------------- | -- |
-| Junior Dos Santos  | Tai Tuivasa  | Fighter1 | |
+| Junior Dos Santos  | Tai Tuivasa  | Fighter1 | Y |
 | Mauricio Rua | Tyson Pedro  | Fighter1 | Y |
 | Mark Hunt | Justin Willis | Fighter2 | Y |
 | Jake Matthews | Anthony Rocco Martin | Fighter1 | N |
