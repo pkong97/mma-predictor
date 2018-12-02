@@ -7,7 +7,9 @@ The data was gathered from [fightmetric](fightmetric.com) using Beautiful Soup a
 
 # Predictions
 UFC Fight Night: Dos Santos vs. Tuivasa
+
 Dec. 01, 2018
+
 6/9 (66.6%) of fights predicted correctly
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
