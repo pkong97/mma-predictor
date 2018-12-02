@@ -6,7 +6,7 @@ Mixed Martial Arts is a very unpredictable sport. There exists a large number of
 The data was gathered from [fightmetric](fightmetric.com) using Beautiful Soup and cleaned with NumPy and pandas. Scikit-learn was used to fit a logistic regression model to the data and predict the outcome of a fight.
 
 # Predictions
-UFC Fight Night: Dos Santos vs. Tuivasa
+UFC Fight Night: Dos Santos vs. Tuivasa - 6/9 (66.6%) of fights predicted correctly
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
 | --------- | -------- | ---------------- | -- |
