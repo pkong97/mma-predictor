@@ -10,7 +10,10 @@ my_url = 'http://fightmetric.com/statistics/fighters?char='
 
 def calc_momentum(record):
 	momentum = 0
-	streak = record[0]
+	if record[0] == 'next':
+		streak = record[1]
+	else:
+		streak = record[0]
 	for i in record:
 		if i == streak:
 			momentum += 1
