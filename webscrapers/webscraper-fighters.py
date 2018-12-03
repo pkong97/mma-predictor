@@ -10,18 +10,29 @@ my_url = 'http://fightmetric.com/statistics/fighters?char='
 
 def calc_momentum(record):
 	momentum = 0
-	if record[0] == 'next':
-		streak = record[1]
+	streak = record[0]
+	if streak == 'next':
+		try:
+			streak = record[1]
+			for i in record[1:]:
+				if i == streak:
+					momentum += 1
+				else:
+					break
+		except IndexError as e:
+			momentum = 0
 	else:
 		streak = record[0]
-	for i in record:
-		if i == streak:
-			momentum += 1
-		else:
-			break
-	if streak == "loss":
+		for i in record:
+			if i == streak:
+				momentum += 1
+			else:
+				break
+	if streak == 'win':
+		return momentum
+	if streak == 'loss':
 		momentum *= -1
-	elif streak == "draw":
+	else:
 		momentum = 0
 	return momentum
 
