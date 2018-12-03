@@ -27,3 +27,4 @@ Dec. 01, 2018
 # TODO
 - [ ] Chain together scripts with workflow engine
 - [ ] Get data on betting odds
+- [ ] Additional feature engineering to improve accuracy
