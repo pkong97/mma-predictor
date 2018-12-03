@@ -1,0 +1,14 @@
+,id,name,id_opp,name_opp,event_id,event_name,elo,elo_opp,height_diff,reach_diff,ss_min_diff,str_acc_diff,str_a_min_diff,str_def_diff,td_avg_diff,td_acc_diff,td_def_diff,sub_avg_diff,wins_diff,losses_diff,momentum_diff,wl_diff_diff,outcome
+0,150ff4cc642270b9,Max Holloway,def8166ff24bd237,Brian Ortega,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,923.9563702,867.2285412,3,0,2.55,11,-1.37,9,0.06,66,25,-1.3,9,3,6,6,W
+1,132deb59abae64b1,Valentina Shevchenko,3d6749c4267da18f,Joanna Jedrzejczyk,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,788.6592084,845.4929208,-1,2,-3.13,5,-0.29,-9,1.67,-12,-9,0.5,-5,0,0,-5,L
+2,57b10fca4f9c9a7a,Alex Oliveira,fd55393021a8c255,Gunnar Nelson,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,856.9870329,811.5576726,0,4,1,-3,-1.62,-5,1.81,-24,-13,-0.2,2,0,3,2,W
+3,2c9d00968f818270,Hakeem Dawodu,c5af5750e8bae4f0,Kyle Bochniak,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,750.7023987,738.2887986,1,3,2.42,14,-2.71,5,-1,-20,38,0,-1,-2,2,1,W
+4,1e1dbd1cc5a7469e,Jimi Manuwa,dea070ed4a2a8281,Thiago Santos,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,782.4757728,836.8811771,-1,3,-1.55,3,1.7,-13,-0.29,-16,6,0.3,-5,-1,-4,-4,L
+5,ec34349e7dffcde7,Claudia Gadelha,d343df8ba11f4c4e,Nina Ansaroff,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,786.5238192,766.3376209,-1,-1,-1.59,-5,1.16,2,3.53,12,-22,0.2,2,1,-2,1,L
+6,55ee431411ccf07a,Olivier Aubin-Mercier,23024fdfc966410a,Gilbert Burns,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,806.1449075,790.5670863,-1,-1,-0.17,14,-0.89,0,0.74,-1,30,-0.2,1,0,0,1,W
+7,e872e9a9a902c045,Katlyn Chookagian,f72465a784c1b084,Jessica Eye,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,796.6103834,720.1471389,3,2,0.61,-6,0.65,5,-0.59,-71,-4,-0.6,1,-4,1,5,W
+8,34f88592c0ab7a54,Elias Theodorou,cad24459b28592ca,Eryk Anders,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,825.8389292,768.5662368,0,0,1.06,-9,-1.44,10,-0.9,-12,0,-0.2,4,0,3,4,W
+9,7b433309b0fd12aa,Brad Katona,2fc7e9701642ca38,Matthew Lopez,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,766,746.1916239,-1,-4,2.02,11,-2.42,22,-1.13,-29,37,-1.4,-1,-3,3,2,W
+10,c03a5022f8439f2a,Chad Laprise,e9213f53ddeca978,Dhiego Lima,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,791.925269,694.3751751,-4,-3,2.23,-5,0.72,14,-1.15,-12,28,-1.5,5,-2,3,7,W
+11,f53d4f21d1b5f2dc,Diego Ferreira,5580771f383e141f,Jesse Ronson,2a74bbba57058f12,UFC Fight Night: Blaydes vs. Ngannou 2,785.6068373,703.4749433,-1,2,0.77,-8,0.35,-6,-0.32,-29,1,0.7,4,-1,5,5,W
+12,cc7040fe76f0ef91,Devin Clark,333b9e5c723ac873,Aleksandar Rakic,2a74bbba57058f12,UFC Fight Night: Magny vs. Ponzinibbio,764.8222079,785.2739708,-4,-3,-1.65,6,1.61,-14,1.86,-27,-6,0.3,1,2,-1,-1,L

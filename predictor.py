@@ -107,12 +107,21 @@ outcome = 'outcome'
 
 # Logistic Regression
 from sklearn.linear_model import LogisticRegression
+# Random Forest
+from sklearn.ensemble import RandomForestClassifier
+
 predictors = ['elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
             'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
             'wins_diff','losses_diff','momentum_diff','wl_diff_diff']
 outcome = 'outcome'
 
-model = LogisticRegression()
+model_selection = input('0 for LogisticRegression, 1 for RandomForestClassification')
+
+if model_selection == 0:
+	model = LogisticRegression()
+else:
+	model = RandomForestClassifier()
+
 model.fit(comp[predictors],comp[outcome])
 n_event[outcome] = model.predict(n_event[predictors])
 
