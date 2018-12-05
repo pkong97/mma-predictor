@@ -2,8 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-fighters = pd.read_csv("C:/Users/patri/OneDrive/Projects/mma-predictor/data/fighter-database.csv")
-fights = pd.read_csv("C:/Users/patri/OneDrive/Projects/mma-predictor/data/fight-database.csv")
+fighters = pd.read_csv("../data/fighter-database.csv")
+fights = pd.read_csv("../data/fight-database.csv")
 
 # track differences in databases
 f_ids = list(fights['f1_id'].append(fights['f2_id']))
