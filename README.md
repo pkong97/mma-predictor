@@ -28,3 +28,4 @@ Dec. 01, 2018
 - [ ] Chain together scripts with workflow engine
 - [ ] Get data on betting odds
 - [ ] Additional feature engineering to improve accuracy
+- [ ] Migrate data to PostgreSQL
