@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-fighters = pd.read_csv("C:/Users/patri/OneDrive/Projects/mma-predictor/raw-data/fighter-database.csv")
+fighters = pd.read_csv("../raw-data/fighter-database.csv")
 
 #drop all rows with missing weight and height
 for i in range(0, len(fighters)):
