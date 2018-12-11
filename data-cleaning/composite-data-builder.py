@@ -33,9 +33,9 @@ def expected_score(ratingA, ratingB, player):
 def update_elo(ratingA, ratingB, player, outcome):
     '''outcome True for win, False otherwise'''
     if outcome:
-        return ratingA + 40*(1 - expected_score(ratingA, ratingB, player))
+        return ratingA + 60*(1 - expected_score(ratingA, ratingB, player))
     else:
-        return ratingA + 40*(0 - expected_score(ratingA, ratingB, player))
+        return ratingA + 60*(0 - expected_score(ratingA, ratingB, player))
 
 # create composite database
 headings = ['id','name','id_opp','name_opp','event_id','event_name','elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
