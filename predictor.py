@@ -18,9 +18,9 @@ def expected_score(ratingA, ratingB, player):
 def update_elo(ratingA, ratingB, player, outcome):
     '''outcome True for win, False otherwise'''
     if outcome:
-        return ratingA + 32*(1 - expected_score(ratingA, ratingB, player))
+        return ratingA + 60*(1 - expected_score(ratingA, ratingB, player))
     else:
-        return ratingA + 32*(0 - expected_score(ratingA, ratingB, player))
+        return ratingA + 60*(0 - expected_score(ratingA, ratingB, player))
 
 # track differences in databases
 f_ids = list(next_event['f1_id'].append(next_event['f2_id']))
@@ -37,7 +37,7 @@ for i in range(0, len(next_event)):
         next_event = next_event.drop(index = i)
 next_event = next_event.reset_index()
 
-start_elo = 750
+start_elo = 1000
 # create composite database
 headings = ['id','name','id_opp','name_opp','event_id','event_name','elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
             'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
