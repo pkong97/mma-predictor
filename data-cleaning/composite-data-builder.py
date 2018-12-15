@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 
 fighters = pd.read_csv("../data/fighter-database.csv")
 fights = pd.read_csv("../data/fight-database.csv")

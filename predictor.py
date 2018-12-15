@@ -89,7 +89,6 @@ for i in range(0, len(next_event)):
     wins_diff = f1_data['wins'].values[0] - f2_data['wins'].values[0]
     losses_diff = f1_data['losses'].values[0] - f2_data['losses'].values[0]
     momentum_diff = f1_data['momentum'].values[0] - f2_data['momentum'].values[0]
-    print(f1_data['momentum'].values[0])
     wl_diff_diff = f1_data['wl_diff'].values[0] - f2_data['wl_diff'].values[0]
     
     n_event = n_event.append([{'id':ID,'name':name,'id_opp':id_opp,'name_opp':name_opp,'event_id':event_id,'event_name':event_name,
