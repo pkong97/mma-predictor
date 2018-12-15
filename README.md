@@ -3,7 +3,7 @@ A predictor for MMA fights!
 
 Mixed Martial Arts is a very unpredictable sport. There exists a large number of variables from stemming from the multitude of styles and attacks allowed in the sport. So I've created this mma-predictor to try and make sense of all the chaos and hopefully predict the outcomes of some fights!
 
-The data was gathered from [fightmetric](https://fightmetric.com) using Beautiful Soup and cleaned with NumPy and pandas. Scikit-learn was used to fit a logistic regression model to the data and predict the outcome of a fight.
+The data was gathered from [fightmetric](https://www.fightmetric.com) using Beautiful Soup and cleaned with NumPy and pandas. Scikit-learn was used to fit a logistic regression model to the data and predict the outcome of a fight.
 
 # Predictions
 UFC 231: Holloway vs. Ortega
