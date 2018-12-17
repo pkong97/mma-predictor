@@ -14,7 +14,9 @@ To use the predictor, clone the repository and execute the "run-predictor.sh" sc
 UFC 231: Holloway vs. Ortega
 ----------------------------
 Dec. 08, 2018
+
 8/13 (61.5%) of fights predicted correctly
+
 Expected ROI* = +11.1%
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
@@ -36,7 +38,9 @@ Expected ROI* = +11.1%
 UFC Fight Night: Dos Santos vs. Tuivasa
 ---------------------------------------
 Dec. 01, 2018
+
 6/9 (66.6%) of fights predicted correctly
+
 Exected ROI* = +36.0%
 
 | Fighter1  | Fighter2 | Predicted Winner | Correct? |
