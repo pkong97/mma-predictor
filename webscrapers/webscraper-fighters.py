@@ -38,7 +38,7 @@ def calc_momentum(record):
 
 def fighter_scraper(url, filename):
 	file = open(filename, "w")
-	headers = 'id,name,nickname,height,weight,reach,dob,ss_min,str_acc,str_a_min,str_def,td_avg,td_acc,td_def,sub_avg,wins,losses,wl_diff,momentum\n'
+	headers = 'id,name,height,weight,reach,dob,ss_min,str_acc,str_a_min,str_def,td_avg,td_acc,td_def,sub_avg,wins,losses,wl_diff,momentum\n'
 	file.write(headers)
 	f_id = ''
 	# scrape from page a-z
@@ -72,7 +72,6 @@ def fighter_scraper(url, filename):
 			f_id = current_fighter.split('/')[-1]
 			name = fighter_soup.findAll("span", {"class":"b-content__title-highlight"})[0].text.strip()
 			print(name)
-			nickname = fighter_soup.findAll("p",{"class":"b-content__Nickname"})[0].text.strip()
 			stats = fighter_soup.findAll("li", {'class':'b-list__box-list-item b-list__box-list-item_type_block'})
 			height = re.sub("[^0-9\'\"]", "", stats[0].text.strip()) #filter out unnecessary headings
 			weight = re.sub("[^0-9]", "", stats[1].text.strip())
@@ -102,7 +101,7 @@ def fighter_scraper(url, filename):
 				momentum = calc_momentum(record_list)
 			else:
 				momentum = 0
-			file.write(str(f_id) + "," + name + "," + nickname + "," + height + "," + weight + "," + reach + "," + dob + "," + ss_min + "," 
+			file.write(str(f_id) + "," + name + "," + height + "," + weight + "," + reach + "," + dob + "," + ss_min + "," 
 				+ str_acc + "," + ss_a_min + "," + str_def + "," + td_avg + "," + td_acc + "," + td_def + "," + sub_avg + "," + str(wins) + 
 				"," + str(losses) + "," + str(win_loss_diff) + "," + str(momentum) + "\n")
 

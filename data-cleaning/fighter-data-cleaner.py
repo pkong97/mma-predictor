@@ -52,7 +52,7 @@ for i in range(0, len(fighters['height'])):
 last_name = [x.split(' ')[-1] for x in fighters['name']]
 fighters['last_name'] = last_name
 fighters = fighters.sort_values('last_name')
-fighters = fighters.drop(columns = ["nickname", "last_name", "level_0", "index"])
+fighters = fighters.drop(columns = ["last_name", "level_0", "index"])
 
 #fix td_avg and sub_avg values
 fighters['td_avg'] = fighters['td_avg'].apply(lambda x: float(x[1:]))
