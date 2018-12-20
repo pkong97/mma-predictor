@@ -60,4 +60,4 @@ Exected ROI* = +36.0%
 # TODO
 - [ ] Get data on betting odds
 - [ ] Additional feature engineering to improve accuracy
-- [ ] Migrate data to PostgreSQL
+- [X] Migrate data to PostgreSQL
