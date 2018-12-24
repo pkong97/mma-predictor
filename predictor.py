@@ -11,6 +11,8 @@ filename = 'predictions/' + input("Enter event name: ") + '.csv'
 my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
 headers = 'event_id,event_name,f1_id,f1_name,f2_id,f2_name\n'
 
+# collect data on next event
+
 def scrape(url, filename):
     file = open(filename, "w")
     file.write(headers)
@@ -46,11 +48,13 @@ scrape(my_url, filename)
 
 event = filename
 
+# load training sets
 fighters = pd.read_csv('data/fighter-database.csv')
 fights = pd.read_csv('data/fight-database.csv')
 comp = pd.read_csv('data/composite-database.csv')
 next_event = pd.read_csv(event)
 
+# elo ranking formulas
 def expected_score(ratingA, ratingB, player):
     '''player must be A or B'''
     if player == 'A':
@@ -80,8 +84,9 @@ for i in range(0, len(next_event)):
         next_event = next_event.drop(index = i)
 next_event = next_event.reset_index()
 
+# create testing set
 start_elo = 1000
-# create composite database
+
 headings = ['id','name','id_opp','name_opp','event_id','event_name','elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
             'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
             'wins_diff','losses_diff','momentum_diff','wl_diff_diff']
@@ -142,11 +147,6 @@ for i in range(0, len(next_event)):
                          'losses_diff':losses_diff,'momentum_diff':momentum_diff, 'wl_diff_diff':wl_diff_diff}], 
                        ignore_index = True)
 
-predictors = ['elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
-            'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
-            'wins_diff','losses_diff','momentum_diff','wl_diff_diff']
-outcome = 'outcome'
-
 # Logistic Regression
 from sklearn.linear_model import LogisticRegression
 # Random Forest
@@ -161,7 +161,7 @@ model_selection = input('0 for LogisticRegression, 1 for RandomForestClassificat
 
 if model_selection == 0:
 	model = LogisticRegression()
-else:
+elif model_selection == 1:
 	model = RandomForestClassifier()
 
 model.fit(comp[predictors],comp[outcome])
