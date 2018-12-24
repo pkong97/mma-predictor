@@ -78,4 +78,4 @@ fighters = fighters.reset_index(drop = True)
 
 fighters = fighters.drop(columns = ['level_0', 'index', 'dob'])
 
-fighters.to_csv('C:/Users/patri/OneDrive/Projects/mma-predictor/data/fighter-database.csv')
+fighters.to_csv('../data/fighter-database.csv')

@@ -12,16 +12,14 @@ for i in set(f_ids):
     if i not in f_ids_fighters:
         f_ids.remove(i)
         missing.append(i)
-print(len(f_ids))
-print(len(missing))
 
 # remove fights w/ fighters not in database
 for i in range(0, len(fights)):
     if fights.loc[i, 'f1_id'] in missing or fights.loc[i, 'f2_id'] in missing:
         fights = fights.drop(index = i)
 fights = fights.reset_index()
-len(fights)
 
+# elo ranking formula
 def expected_score(ratingA, ratingB, player):
     '''player must be A or B'''
     if player == 'A':
@@ -112,4 +110,4 @@ comp['losses_diff'] = comp.losses_diff.astype(float)
 comp['momentum_diff'] = comp.momentum_diff.astype(float)
 comp['wl_diff_diff'] = comp.wl_diff_diff.astype(float)
 
-comp.to_csv('C:/Users/patri/OneDrive/Projects/mma-predictor/data/composite-database.csv')
+comp.to_csv('../data/composite-database.csv')
