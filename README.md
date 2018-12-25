@@ -7,6 +7,8 @@ The data was gathered from [fightmetric](https://www.fightmetric.com) using Beau
 
 Initial testing with logistic regression, decision tree classifier, and random forest classifier classifier models yielded prediction rates of 89.93%, 72.48%, and 79.87% respectively.
 
+# Running the Predictor
+
 To use the predictor, clone the repository and execute the "run-predictor.sh" script. Currently the tool only predicts the next upcoming UFC event. However, I plan to add functionality that will allow for the user to input any two fighters.
 
 # Real-time Predictions
