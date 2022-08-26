@@ -1,4 +1,4 @@
-# mma-predictor
+# MMA FIGHT PREDICTOR
 A predictor for MMA fights!
 
 Mixed Martial Arts is a very unpredictable sport. There exists a large number of variables from stemming from the multitude of styles and attacks allowed in the sport. So I've created this mma-predictor to try and make sense of all the chaos and hopefully glimpse into the future!
