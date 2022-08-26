@@ -1,12 +1,15 @@
 from urllib.request import urlopen as uReq
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup as soup
+from datetime import date
 import string
 import re
 
-f_name = input("Specify the file path and name: ")
+file_name = "../raw-data/" + str(date.today()) + "-" + "fighter-data-raw.csv"
 
-my_url = 'http://fightmetric.com/statistics/fighters?char='
+my_url = 'http://ufcstats.com/statistics/fighters?char='
+
+# calculate fighter momentum (current win/loss streak)
 
 def calc_momentum(record):
 	momentum = 0
@@ -54,7 +57,7 @@ def fighter_scraper(url, filename):
 
 		fighter_links = []
 
-		for link in page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/fighter-details")}):
+		for link in page_soup.findAll('a', attrs={'href':re.compile("^http://ufcstats.com/fighter-details")}):
 			fighter_links.append(link.get('href'))
 
 		# eliminate duplicate links
@@ -107,5 +110,5 @@ def fighter_scraper(url, filename):
 
 	file.close()
 
-fighter_scraper(my_url, f_name)
+fighter_scraper(my_url, file_name)
 
