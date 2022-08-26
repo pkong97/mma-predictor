@@ -1,8 +1,9 @@
 import numpy as np
 import pandas as pd
+from datetime import date
 
-fighters = pd.read_csv("../data/fighter-database.csv")
-fights = pd.read_csv("../data/fight-database.csv")
+fighters = pd.read_csv("../data/" + str(date.today()) + "-fighter-data-clean.csv")
+fights = pd.read_csv("../raw-data/" + str(date.today()) + "-fight-data-raw.csv")
 
 # track differences in databases
 f_ids = list(fights['f1_id'].append(fights['f2_id']))
@@ -110,4 +111,6 @@ comp['losses_diff'] = comp.losses_diff.astype(float)
 comp['momentum_diff'] = comp.momentum_diff.astype(float)
 comp['wl_diff_diff'] = comp.wl_diff_diff.astype(float)
 
-comp.to_csv('../data/composite-database.csv')
+comp.to_csv("../data/" + str(date.today()) + "-all-fights-fighters-data.csv")
+
+

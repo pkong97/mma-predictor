@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
+from datetime import date
 
-fighters = pd.read_csv("../raw-data/fighter-database.csv")
+fighters = pd.read_csv("../raw-data/" + str(date.today()) + "-fighter-data-raw.csv")
 
 #drop all rows with missing weight and height
 for i in range(0, len(fighters)):
@@ -78,4 +78,4 @@ fighters = fighters.reset_index(drop = True)
 
 fighters = fighters.drop(columns = ['level_0', 'index', 'dob'])
 
-fighters.to_csv('../data/fighter-database.csv')
+fighters.to_csv("../data/" + str(date.today()) + "-fighter-data-clean.csv")
