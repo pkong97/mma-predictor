@@ -5,19 +5,23 @@ import string
 import re
 import numpy as np
 import pandas as pd
+from datetime import datetime
+from datetime import date
 
-filename = 'predictions/' + input("Enter event name: ") + '.csv'
-
-my_url = 'http://fightmetric.com/statistics/events/completed?page=all'
+next_event_name = ''
+next_event_date = ''
+next_event_date_name = ''
+my_url = 'http://ufcstats.com/statistics/events/completed?page=all'
 headers = 'event_id,event_name,f1_id,f1_name,f2_id,f2_name\n'
 
 # collect data on next event
 
-def scrape(url, filename):
-    file = open(filename, "w")
-    file.write(headers)
+def scrape_next_event(url):
+
+    global next_event_date, next_event_name, next_event_date_name
+
     page_soup = soup(uReq(url).read(), 'html.parser')
-    events = page_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/event-details")})
+    events = page_soup.findAll('a', attrs={'href':re.compile("^http://ufcstats.com/event-details")})
     event = events[0].get('href')
     try:
         event_page = uReq(event).read()
@@ -26,10 +30,18 @@ def scrape(url, filename):
         e.read()
 
     event_id = event.split('/')[-1]
-    event_name = event_soup.findAll('span',{'class':'b-content__title-highlight'})[0].text.strip()
-    date = event_soup.findAll("li", {"class":"b-list__box-list-item"})[0].text.strip("[Date:, \n]")
+    # get event name mutate to lowercase
+    next_event_name = event_soup.findAll('span',{'class':'b-content__title-highlight'})[0].text.strip()
+    next_event_name_clean = re.sub('[^A-Za-z0-9]+', '-', next_event_name).lower()
+    # get event date in YYYY-MM-DD format
+    next_event_date = event_soup.findAll("li", {"class":"b-list__box-list-item"})[0].text.strip("[Date:, \n]")
+    next_event_date = str(datetime.strptime(next_event_date, '%B %d, %Y').date())
+    fighters = event_soup.findAll('a', attrs={'href':re.compile("^http://ufcstats.com/fighter-details")})
 
-    fighters = event_soup.findAll('a', attrs={'href':re.compile("^http://fightmetric.com/fighter-details")})
+    next_event_date_name = 'predictions/' + next_event_date + '-' + next_event_name_clean + '-predicitons.csv'
+
+    file = open(next_event_date_name, "w")
+    file.write(headers)
 
     for i in range(0, len(fighters), 2):
         f1_id = fighters[i].get('href').split("/")[-1]
@@ -37,22 +49,20 @@ def scrape(url, filename):
         f2_id = fighters[i+1].get('href').split("/")[-1]
         f2_name = fighters[i+1].text.strip()
 
-        file.write(event_id + ',' + event_name + ',' + f1_id + ',' + f1_name
+        file.write(event_id + ',' + next_event_name + ',' + f1_id + ',' + f1_name
             + ',' + f2_id + ',' + f2_name + '\n')
 
         print(f1_name + " vs. " + f2_name)
 
     file.close()
 
-scrape(my_url, filename)
-
-event = filename
+scrape_next_event(my_url)
 
 # load training sets
-fighters = pd.read_csv('data/fighter-database.csv')
-fights = pd.read_csv('data/fight-database.csv')
-comp = pd.read_csv('data/composite-database.csv')
-next_event = pd.read_csv(event)
+fighters = pd.read_csv('data/' + str(date.today()) + '-fighter-data-clean.csv')
+fights = pd.read_csv('raw-data/' + str(date.today()) + '-fight-data-raw.csv')
+comp = pd.read_csv('data/' + str(date.today()) + '-all-fights-fighters-data.csv')
+next_event = pd.read_csv(next_event_date_name)
 
 # elo ranking formulas
 def expected_score(ratingA, ratingB, player):
@@ -147,25 +157,33 @@ for i in range(0, len(next_event)):
                          'losses_diff':losses_diff,'momentum_diff':momentum_diff, 'wl_diff_diff':wl_diff_diff}], 
                        ignore_index = True)
 
+
+#predictors = ['elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
+#            'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
+#            'wins_diff','losses_diff','momentum_diff','wl_diff_diff']
+#outcome = 'outcome'
+
 # Logistic Regression
 from sklearn.linear_model import LogisticRegression
 # Random Forest
 from sklearn.ensemble import RandomForestClassifier
 
-predictors = ['elo','elo_opp','height_diff','reach_diff','ss_min_diff','str_acc_diff', 
-            'str_a_min_diff','str_def_diff','td_avg_diff','td_acc_diff','td_def_diff','sub_avg_diff', 
-            'wins_diff','losses_diff','momentum_diff','wl_diff_diff']
+predictors = ['elo','elo_opp','ss_min_diff','str_acc_diff', 
+            'str_a_min_diff','str_def_diff','td_acc_diff','td_def_diff', 
+            'momentum_diff','wl_diff_diff']
 outcome = 'outcome'
 
-model_selection = input('0 for LogisticRegression, 1 for RandomForestClassification')
+model = LogisticRegression()
 
-if model_selection == 0:
-	model = LogisticRegression()
-elif model_selection == 1:
-	model = RandomForestClassifier()
+#model_selection = input('0 for LogisticRegression, 1 for RandomForestClassification')
+
+#if model_selection == 0:
+#	model = LogisticRegression()
+#elif model_selection == 1:
+#	model = RandomForestClassifier()
 
 model.fit(comp[predictors],comp[outcome])
 n_event[outcome] = model.predict(n_event[predictors])
 
-n_event.to_csv(event)
+n_event.to_csv(next_event_date_name)
 
