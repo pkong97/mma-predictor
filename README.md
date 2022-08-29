@@ -1,11 +1,13 @@
 # MMA FIGHT PREDICTOR
 A predictor for MMA fights!
 
+**Refer to workflow.ipynb for a detailed breakdown on my workflow for this project**
+
 Mixed Martial Arts is a very unpredictable sport. There exists a large number of variables from stemming from the multitude of styles and attacks allowed in the sport. So I've created this mma-predictor to try and make sense of all the chaos and hopefully glimpse into the future!
 
 The data was gathered from [UFC Stats](https://www.ufcstats.com) using Beautiful Soup and cleaned with NumPy and pandas. Scikit-learn was used to fit a logistic regression model to the data and predict the outcome of a fight. 
 
-Initial testing with logistic regression, decision tree classifier, and random forest classifier classifier models yielded prediction rates of 89.93%, 72.48%, and 79.87% respectively.
+Initial testing with logistic regression, decision tree classifier, and random forest classifier classifier models yielded prediction rates of 89.93%, 73.83%%, and 85.91% respectively.
 
 # Running the Predictor
 
