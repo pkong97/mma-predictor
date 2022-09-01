@@ -1,5 +1,5 @@
 # MMA FIGHT PREDICTOR
-**Refer to workflow.ipynb for a detailed breakdown on my workflow for this project**
+**Refer to workflow.ipynb for a detailed breakdown on my workflow for this project.**
 
 Mixed Martial Arts is a very unpredictable sport. There exists a large number of variables from stemming from the multitude of styles and attacks allowed in the sport. So I've created this mma-predictor to try and make sense of all the chaos and hopefully glimpse into the future!
 
